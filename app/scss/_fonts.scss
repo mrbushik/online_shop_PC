@@ -1,0 +1,22 @@
+@font-face{
+    font-family: "Roboto-Regular", sans-serif;
+src: url("../fonts/Roboto-Regular.woff2") format(woff2);
+src: url("../fonts/Roboto-Regular.woff") format(woff);
+font-weight: 400;
+ //для сео чтоб отображалось системными шрифтами  
+font-display: swap; 
+ 
+}
+@font-face {
+  font-family: "bebas";
+  src: url(/app/fonts/Bebas_Neue/BebasNeue-Regular.ttf);
+}
+@font-face {
+  font-family: helvetica;
+  src: url(/app/fonts/helvetika/HelveticaNeueCyr-Medium.ttf);
+}
+@font-face{
+  font-family: "semibold";
+  src: url(/app/fonts/myraid/Myriad-Pro-Semibold_31650.ttf);
+}
+
