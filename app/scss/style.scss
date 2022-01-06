@@ -295,6 +295,15 @@ opacity: 1;
    margin-left: 9%;
    margin-top: 50px;
 }
+.product__link:hover{
+    .rec-item{
+        background-color: #8b8e91;
+        transition: all 2s;
+    }
+    .rec-imformation{
+        color: #fff;
+    }
+}
 .rec-container{
     display: flex;
     justify-content: space-around;
@@ -314,12 +323,23 @@ margin-left: 15%;
 margin-left: 5%;
 }
 .rec-price{
- margin-top: 30px;
+ margin-top: 15px;
 margin-left: 5%;
 font-size: 12px;
 font-family: 'Roboto', sans-serif;
 font-weight: 700;
 color: rgb(0, 0, 0);
+}
+.rec-buy{
+    margin-left: 5%;
+    font-size: 14px;
+    font-family: "Roboto",sans-serif;
+    margin-top: 7px;
+    text-align: center;
+    color: #43a8e7;
+    &:hover{
+        color: red;
+    }
 }
 .watch{
     background-color: #f7f9fb;
