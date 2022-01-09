@@ -1,0 +1,35 @@
+@media (max-width: 1030px) {
+.container{
+    width: auto;
+}
+.rec-border{
+    max-width: 100%;
+    margin-right: 10px;
+}
+}
+@media (max-width: 700px) {
+.footer__inner{
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.footer__col:last-child{
+    margin-top: 50px;
+}
+.footer__col-title{
+margin-bottom: unset;
+}
+}
+@media (max-width: 670px) {
+.watch-filter{
+    margin-top: 20px;
+}
+}
+@media (max-width: 569px) {
+    .footer__col:last-child{
+        margin-top: unset;
+    }
+    .footer__col{
+        margin-bottom: 50px;
+    }
+}
+
