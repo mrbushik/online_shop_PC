@@ -205,8 +205,9 @@ margin-top: 40px;
 
 .swiper-pagination{
  top: 500px;
-left: -14%;
-margin-left: -1%;
+left: 44%;
+width: unset;
+height: 25px;
 }
 .slider-price{
     font-family: 'Roboto', sans-serif;
@@ -297,6 +298,7 @@ opacity: 1;
     background-color: white;
    margin-left: 9%;
    margin-top: 50px;
+   margin-right: 10px;
 }
 .product__link:hover{
     .rec-item{

@@ -2,10 +2,42 @@
 .container{
     width: auto;
 }
+.info-list-rectangle{
+    display: none;
+}
 .rec-border{
     max-width: 100%;
     margin-right: 10px;
 }
+.catalog-item{
+  margin-left: 1%;  
+}
+.recommemded-products{
+    height: unset;
+}
+}
+@media (max-width: 800px) {
+    .catalog-container{
+        display: none;
+    }
+    .swiper-pagination{
+        display: none;
+    }
+    .recommemded-products{
+        margin-top: unset;
+    }
+    .rec-title {
+        margin-top: 25px;
+        width: 235px;
+        margin: 0 auto;
+    }
+    .recommemded-container{
+        flex-wrap: wrap;
+    }
+    .rec-main-img{
+            height: 446px;
+        
+    }
 }
 @media (max-width: 700px) {
 .footer__inner{

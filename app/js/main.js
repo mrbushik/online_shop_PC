@@ -1,4 +1,4 @@
-var mixer = mixitup('.watch-container');
+// var mixer = mixitup('.watch-container');
 const catalog = document.querySelector(".catalog-container");
 const catalog_items = document.querySelectorAll(".catalog-item");
 const catalog_list = document.querySelector(".catalog-list");
