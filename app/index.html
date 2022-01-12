@@ -33,6 +33,7 @@
             </div>
         </div>
     </div>
+    
 </header>
 <section class="info">
     <div class="container">
@@ -51,6 +52,25 @@
                                 <div class="header-row"></div>
                             </div>
                             <div class="info-title _anim-items">В наличии</div>
+                            <!-- в начале сделать не видимым -->
+                            <!-- <div class="header-box">
+                            <a class="notification header__circle active icon-bell" href="#">
+                                <div class="header-row-adaptive"></div>
+                                <div class="header-row-adaptive"></div>
+                                <div class="header-row-adaptive"></div>
+                              </a>
+                              <div class="drop-list">
+                                  <ul>
+                                      <li><a>Часы</a></li>
+                                      <li><a>Телефоны</a></li>
+                                      <li><a>Ноутбуки</a></li>
+                                      <li><a>Наушники</a></li>
+                                      <li><a>Системные блоки</a></li>
+                                      <li><a>Полное наличие</a></li>
+                                  </ul>
+                              </div>
+                            </div> -->
+                           
                         </div>
 
                     </div>
@@ -79,7 +99,33 @@
                         </li>
                     </ul>
                 </div>
-
+                <nav class="header__menu">
+                    <div class="header__menu-btn">
+                      <div class="drop-row"></div>
+                      <div class="drop-row"></div>
+                      <div class="drop-row"></div>
+                  
+                    <div class="header__drop-menu">
+                    <ul>
+                        <li class="reg__ingo-drop"><span>Здравствуйте,<br>User 
+                            <a class="red__info-link">выйти</a></span></li>
+                        <li><a>Часы</a></li>
+                        <li><a>Телефоны</a></li>
+                        <li><a>Ноутбуки</a></li>
+                        <li><a>Наушники</a></li>
+                        <li><a>Системные блоки</a></li>
+                        <li><a>Полное наличие</a></li>
+                    </ul>
+                    <div class="header__nav-drop">
+                        <ul>
+                            <li><a href="">Оплата</a></li>
+                            <li><a href="">Самовывоз</a></li>
+                            <li><a href="">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+                  </nav>
                 <div class="catalog-container">
                     <div class="catalog-list">
                         <div class="catalog-item">
@@ -147,7 +193,7 @@
                 </div>
             </div>
             <div class="rec-container">
-                <a class="product__link" href="product1.html">
+                <a class="product__link" href="html/product1.html">
                     <div class="rec-item">
                         <img class="rec-img" src="/img/rec1.png">
                         <div class="rec-imformation">Apple MacBook Air 13
@@ -197,8 +243,166 @@
     </div>
 </section>
 <!-- new section -->
-<!-- ADDED SECTION -->
-<!-- <footer class="footer">
+<section class="watch">
+    <div class="container">
+        <div class="rec-title">Каталог</div>
+        <div class="rec-border">
+        </div>
+        <div class="products__inner-btn">
+            <button class="watch-filter" type="button" data-filter="all">All</button>
+            <button class="watch-filter" type="button" data-filter=".watch">Часы</button>
+            <button class="watch-filter" type="button" data-filter=".phone">Телефоны</button>
+            <button class="watch-filter" type="button" data-filter=".airpods">Наушники</button>
+            <button class="watch-filter" type="button" data-filter=".notebook">Ноутбуки</button>
+            <button class="watch-filter" type="button" data-filter=".system">Системные блоки</button>
+        </div>
+        <div class="watch-container">
+            <a name="watch"></a>
+            <!-- часы -->
+            <div class="watch-item mix watch" data-order="1">
+                <a name="watch"></a>
+                <img class="watch-img" src="/img/watchS3.png">
+                <div class="rec-imformation">Apple Watch <br>Series 3</div>
+                <div class="rec-price">790 BYN</div>
+                <a class="rec-buy" href="html/watch1.html">Купить</a>
+
+            </div>
+            <div class="watch-item mix watch category-popular" data-order="2">
+                <img class="watch-img" src="/img/watchSE.png">
+                <div class="rec-imformation">Apple Watch<br> Series SE</div>
+                <div class="rec-price">1190 BYN</div>
+                <a class="rec-buy" href="html/watch2.html">Купить</a>
+            </div>
+            <div class="watch-item mix watch" data-order="3">
+                <img class="watch-img" src="/img/watch7-1.png">
+                <div class="rec-imformation">Apple Watch<br> Series 7</div>
+                <div class="rec-price">1490 BYN</div>
+                <a class="rec-buy" href="html/watch3.html">Купить</a>
+            </div>
+            <div class="watch-item mix watch" data-order="4">
+                <img class="watch-img" src="/img/watch7-2.png">
+                <div class="rec-imformation">Apple Watch <br>Series 7</div>
+                <div class="rec-price">1490 BYN</div>
+                <a class="rec-buy" href="html/watch4.html">Купить</a>
+            </div>
+            <!-- телефоны -->
+            <a name="phone"></a>
+            <div class="watch-item mix phone category-popular" data-order="5">
+                <img class="Iphone-img" src="/img/IPhone11.png">
+                <div class="rec-imformation">Apple IPhone 11</div>
+                <div class="rec-price">1790 BYN</div>
+                <a class="rec-buy" href="html/iphine1.html">Купить</a>
+            </div>
+
+            <div class="watch-item mix phone category-new" data-order="6">
+                <img class="Iphone-img" src="/img/IPhone12.png">
+                <div class="rec-imformation">Applee IPhone 12</div>
+                <div class="rec-price">2190 BYN</div>
+                <a class="rec-buy" href="html/iphone2.html">Купить</a>
+            </div>
+            <div class="watch-item mix phone" data-order="7">
+                <img class="Iphone-img" src="/img/Iphone12mini.png">
+                <div class="rec-imformation">Apple IPhone 12 mini</div>
+                <div class="rec-price">1990 BYN</div>
+                <a class="rec-buy" href="html/iphone3.html">Купить</a>
+            </div>
+            <div class="watch-item mix phone" data-order="8">
+                <img class="Iphone-img" src="/img/IPhoneSE.png">
+                <div class="rec-imformation">Apple IPhone SE</div>
+                <div class="rec-price">1390 BYN</div>
+                <a class="rec-buy" href="html/iphone4.html">Купить</a>
+            </div>
+            <!-- Наушники -->
+            <a name="airpods"></a>
+            <div class="watch-item mix airpods" data-order="9">
+                <img class="rec-img" style="margin-left: 30%;" src="/img/rec4.png">
+                <div class="rec-imformation">Apple AirPods 2</div>
+                <div class="rec-price">490 BYN</div>
+                <a class="rec-buy" href="html/product4.html">Купить</a>
+
+            </div>
+            <div class="watch-item mix airpods" data-order="10">
+                <img class="rec-img" src="/img/rec5.png">
+                <div class="rec-imformation">Apple AirPods Pro</div>
+                <div class="rec-price">790 BYN</div>
+                <a class="rec-buy" href="html/product5.html">Купить</a>
+            </div>
+            <div class="watch-item mix airpods category-new" data-order="11">
+                <img class="rec-img" style="margin-left: 21%;" src="/img/rec6.png">
+                <div class="rec-imformation">Apple AirPods Max</div>
+                <div class="rec-price">1890 BYN</div>
+                <a class="rec-buy" href="html/product6.html">Купить</a>
+            </div>
+            <div class="watch-item mix airpods" data-order="12">
+                <img class="rec-img" style="margin-left: 21%;" src="/img/Слой 31.png">
+                <div class="rec-imformation">Apple AirPods 3</div>
+                <div class="rec-price">690 BYN</div>
+                <a class="rec-buy" href="html/product8.html">Купить</a>
+            </div>
+            <!-- ноуты -->
+            <a name="notebook"></a>
+            <div class="watch-item mix notebook" data-order="13">
+                <img class="rec-img" src="/img/rec1.png">
+                <div class="rec-imformation">Apple MacBook Air 13
+                    (розовый)</div>
+                <div class="rec-price">3700 BYN</div>
+                <a class="rec-buy" href="html/product1.html">Купить</a>
+            </div>
+            <div class="watch-item mix notebook" data-order="14">
+                <img class="rec-img" src="/img/rec2.png">
+                <div class="rec-imformation">Apple MacBook Pro13
+                    (серебристый)</div>
+                <div class="rec-price">3700 BYN</div>
+                <a class="rec-buy" href="html/product2.html">Купить</a>
+            </div>
+            <div class="watch-item mix notebook category-popular" data-order="15">
+                <img class="rec-img" src="/img/rec3.png">
+                <div class="rec-imformation">Apple MacBook Air 13
+                    (серебристый)</div>
+                <div class="rec-price">3700 BYN</div>
+                <a class="rec-buy" href="html/product3.html">Купить</a>
+            </div>
+            <div class="watch-item mix notebook category-new" data-order="16">
+                <img class="rec-img" src="/img/мак4.png">
+                <div class="rec-imformation">Apple MacBook Pro 13
+                    (золотой)</div>
+                <div class="rec-price">3700 BYN</div>
+                <a class="rec-buy" href="html/product7.html">Купить</a>
+            </div>
+            <!-- start pc -->
+            <a name="pc"></a>
+            <div class="watch-item mix system">
+                <img class="rec-img" src="/img/pc1.png">
+                <div class="rec-imformation">Компьютер на базе AMD Ryzen 5 3600X</div>
+                <div class="rec-price">2999 BYN</div>
+                <a class="rec-buy" href="html/pc1.html">Купить</a>
+            </div>
+            <div class="watch-item mix system" data-order="18">
+                <img class="rec-img" src="/img/pc2.png">
+                <div class="rec-imformation">Компьютер на базе AMD Ryzen 3 3200G </div>
+                <div class="rec-price">1290 BYN</div>
+                <a class="rec-buy" href="html/pc2.html">Купить</a>
+            </div>
+            <div class="watch-item mix system category-popular" data-order="19">
+                <img class="rec-img" src="/img/pc3.png">
+                <div class="rec-imformation">Компьютер на базе Intel Core i5-9400F</div>
+                <div class="rec-price">3590 BYN</div>
+                <a class="rec-buy" href="html/pc3.html">Купить</a>
+            </div>
+            <div class="watch-item mix system category-new" data-order="20">
+                <img class="rec-img" src="/img/pc4.png">
+                <div class="rec-imformation">Компьютер на базе Intel Core i7-9700</div>
+                <div class="rec-price">1900 BYN</div>
+                <a class="rec-buy" href="html/pc4.html">Купить</a>
+            </div>
+        </div>
+            <div class="products__bottom-btn">
+                <button type="button" data-filter=".category-new">Новинки</button>
+                <button type="button" data-filter=".category-popular">Популярное</button>
+            </div>
+    </div>
+</section>
+<footer class="footer">
     <div class="footer__content">
         <div class="container">
             <div class="footer__inner">
@@ -242,8 +446,9 @@
             </div>
         </div>
     </div>
-</footer> -->
+</footer>
 <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <script src="/js/mixitup.js"></script>
 <script src="/js/sort.js"></script>
 <script src="/js/main.js"></script>

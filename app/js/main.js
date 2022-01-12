@@ -1,4 +1,4 @@
-// var mixer = mixitup('.watch-container');
+var mixer = mixitup('.watch-container');
 const catalog = document.querySelector(".catalog-container");
 const catalog_items = document.querySelectorAll(".catalog-item");
 const catalog_list = document.querySelector(".catalog-list");
@@ -26,19 +26,13 @@ var swiper = new Swiper(".mySwiper", {
     
   });
 
-  $(".header__menu-btn").on("click", function(){
+  $(".header__menu-btn").on("click", function () {
     $(".header__menu ul").slideToggle();
- });
- $(function(){
-  $(".product-slider__inner").slick({
-    dots: true,
-    arrows: false,
-     slidesToShow: 1,
-     slidesToScroll: 1
- });
-  var mixer = mixitup('.watch-container');
-  
-});
+  });
+
+// $(".header__menu-btn").on("click", function(){
+//   $(".header__menu ul").slideToggle();
+// });
 //  const animItems = document.querySelectorAll('._anim-items');
 
 //  if (animItems.length > 0){

@@ -51,7 +51,9 @@ a{
     font-size: 16px;
     font-family: "semibold";
 }
-   
+   .header__drop-menu{
+       display: none;
+   }
   
   /* section info */
   .info{
@@ -462,7 +464,7 @@ font-family: 'Roboto', sans-serif;
     }
  .footer__col{
     max-width: 270px;
-    width: 100%;
+   margin-right: 5%;
 
     &-menu {
         max-width: 220px;
@@ -541,6 +543,8 @@ font-family: 'Roboto', sans-serif;
 //page for product
 .product__container{
     display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 .pdoduct__img{
     img{
@@ -600,4 +604,36 @@ width: 120px;
     width: 1000px;
     margin-top: 20px;
 }
+.map{
+    height: 450px;
+    width: 100%;
+    margin-top: 310px;
+    &__info{
+    font-size: 18px;  
+    font-family: "semibold";   
+    text-align: center
+    }
+
+}
+.map__info-subtitle{
+    position: absolute;
+    font-size: 22px;
+    color: #1d36b4;
+    top: 545px;   
+   }
+   .pay__info{
+    text-align: center;
+    font-size: 18px;
+    &-subtitle{
+        margin-top: 30px;
+text-align: center;
+    }
+    &-other{
+        margin-bottom: 144px;
+margin-top: 50px;
+text-align: center;
+color: #b9b9b9; 
+    }
+   }
+
 @import"_media";
