@@ -15,7 +15,7 @@ a{
     display: inline-block;
 } */
 .container{
-    width: 1026px;
+    max-width: 1026px;
     margin: 0 auto;
     padding: 0px 15px;
     }
@@ -36,6 +36,11 @@ a{
     }
     .header-list{
         display: inline-block;
+        a:hover{
+color: #1d36b4;
+transition: all 1s;
+border-bottom: 1px solid #1d36b4;
+        }
     }
     .header-menu{
         margin-right: 20px;
@@ -139,37 +144,6 @@ height: 44px;
         }
       }
     }
-      /* .slider{
-        float: inline-end;
-        margin-top: -5px;
-      }
-   .slider__item{
-      width: 100%;
-  }  */
-    /* .slider__item-title{
-    margin-left: 5%; 
-    font-family: "semibold";
-    font-size: 20px;
-    color: rgb(174, 20, 20);
-   } */
-/* .slider-subtitle{
-    font-size: 40px;
-    font-family: "semibold";
-    color: rgb(255, 255, 255);
-    width: 178px;
-    text-transform: uppercase;
-    margin-left: 5%;
-    margin-top: 10px;
-
-}
-.slider-price{
-    font-family: "semibold";
-    color: rgb(255, 255, 255);
-    font-size: 20px;
-    text-transform: uppercase;
-    margin-left: 5%;
-    margin-top: 30px;
-} */
 .slider__item{
     margin-left: 6%;
 }
@@ -190,16 +164,15 @@ width: 190px;
 margin-top: 20px;
 }
 .slider-buy{
-    font-size: 12px;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     color: rgb(255, 255, 255);
-    background-color: rgb(36, 53, 70);
-    border-radius: 3px;
-    width: 84px;
-    height: 29px;
-    border-color: rgb(36,53,70);
+
     margin-left: 5%;
 margin-top: 40px;
+&:hover{
+    color: #3f4e5d;
+}
 }
 .slider__item-element{
     width: 100%;
@@ -238,7 +211,7 @@ margin-left: 10%;
 .recommemded-products{
    background-color: #f7f9fb;
   margin-top: 450px;
-  height: 570px;
+  height: unset;
   padding-top: 20px;
 }
 .recommemded-container{
@@ -292,13 +265,13 @@ opacity: 1;
     height: 30px;
     color: rgb(255, 255, 255);
     margin-left: 35%;
-    margin-top: 20px;
+    margin-top: 15px;
 }
 .rec-item{
     width: 188px;
     height: 188px;
     background-color: white;
-   margin-left: 9%;
+   margin-left: 5%;
    margin-top: 50px;
    margin-right: 10px;
 }
@@ -580,6 +553,7 @@ padding-bottom: 170px;
 text-transform: uppercase;
 font-size: 18px;
 font-family: "helvetica";
+margin-top: 25px;
 }
 .swiper-button-prev{
     // position: absolute;
@@ -635,5 +609,12 @@ text-align: center;
 color: #b9b9b9; 
     }
    }
-
+.phone__link:hover{
+color:#ff680a;
+}
+.contact__page-text{
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 150px;
+}
 @import"_media";
