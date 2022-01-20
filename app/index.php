@@ -179,7 +179,7 @@
                         <img class="rec-img" src="img/rec1.png">
                         <div class="rec-imformation">Apple MacBook Air 13
                             (розовый)</div>
-                        <div class="rec-price">3700 BYN</div>
+                        <div class="rec-price">2900 BYN</div>
                         <a class="rec-buy" href="html/product1.php">Купить</a>
                     </div>     
                     <div class="rec-item">
@@ -193,7 +193,7 @@
                         <img class="rec-img" src="img/rec3.png">
                         <div class="rec-imformation">Apple MacBook Air 13
                             (серебристый))</div>
-                        <div class="rec-price">3700 BYN</div>
+                        <div class="rec-price">2900 BYN</div>
                         <a class="rec-buy" href="/html/product3.php">Купить</a>
                     </div>
                     <div class="rec-item">
@@ -318,7 +318,7 @@
                 <img class="rec-img" src="img/rec1.png">
                 <div class="rec-imformation">Apple MacBook Air 13
                     (розовый)</div>
-                <div class="rec-price">3700 BYN</div>
+                <div class="rec-price">2900 BYN</div>
                 <a class="rec-buy" href="html/product1.php">Купить</a>
             </div>
             <div class="watch-item mix notebook" data-order="14">
@@ -332,7 +332,7 @@
                 <img class="rec-img" src="img/rec3.png">
                 <div class="rec-imformation">Apple MacBook Air 13
                     (серебристый)</div>
-                <div class="rec-price">3700 BYN</div>
+                <div class="rec-price">2900 BYN</div>
                 <a class="rec-buy" href="html/product3.php">Купить</a>
             </div>
             <div class="watch-item mix notebook category-new" data-order="16">

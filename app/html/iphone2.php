@@ -34,11 +34,14 @@
                 </div>
                 <div class="header-menu">
                     <ul>
-                        <li class="header-list">
+                    <li class="header-list">
                             <a class="header-link" href="pay.php">оплата</a>
                         </li>
                         <li class="header-list">
                             <a class="header-link" href="map.php">самовывоз</a>
+                        </li>
+                        <li class="header-list">
+                            <a class="header-link" href="contact.php">контакты</a>
                         </li>
                     </ul>
                 </div>
@@ -113,8 +116,9 @@
                                 </ul>
                                 <div class="header__nav-drop">
                                     <ul>
-                                        <li><a href="pay.php">Оплата</a></li>
+                                    <li><a href="pay.php">Оплата</a></li>
                                         <li><a href="map.php">Самовывоз</a></li>
+                                        <li><a href="contact.php">Контакты</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -174,7 +178,6 @@
                 <ul class="footer__col-list _anim-items">
                   <li class=" _anim-items">Понедельник- Пятница 10-19</li>
                   <li class=" _anim-items">Суббота 10-17</li>
-                
                 </ul>
               </div>
             </div>
