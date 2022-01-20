@@ -1,0 +1,25 @@
+.list{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+.list__info{
+    text-align: center;
+    margin-top: 20px;
+    font-size: 24px;   
+}
+button{
+    margin-bottom: 20px;
+    width: 70px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+}
+.update__title{
+    position: absolute;
+    top: 0;
+}
+.update{
+    display: flex;
+    justify-content: center;
+}

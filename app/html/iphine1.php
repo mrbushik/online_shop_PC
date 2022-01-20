@@ -1,3 +1,16 @@
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header("location: login.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +19,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleleapis.com/css?family=Roboto:500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/libs.min.css">
-    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="../css/libs.min.css">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
     <header class="header">
@@ -21,13 +34,13 @@
                 <div class="header-menu">
                     <ul>
                         <li class="header-list">
-                            <a class="header-link" href="pay.html">оплата</a>
+                            <a class="header-link" href="pay.php">оплата</a>
                         </li>
                         <li class="header-list">
-                            <a class="header-link" href="map.html">самовывоз</a>
+                            <a class="header-link" href="map.php">самовывоз</a>
                         </li>
                         <li class="header-list">
-                            <a class="header-link" href="contact.html">контакты</a>
+                            <a class="header-link" href="contact.php">контакты</a>
                         </li>
                     </ul>
                 </div>
@@ -41,10 +54,11 @@
                 <div class="info-retangle"></div>
                 <div class="info-flex">
                     <div class="info-menu">
-                        <div class="info-registration"><a class="registration-link"
-                                href="registration.html">Авторизация</a>
-                            или <a class="registration-link" href="#">Регистрация</a>
-                        </div>
+                    <div class="info-registration"><p class="registration-link" href="registration.html"> <?php  if (isset($_SESSION['username'])) : ?>
+    	<p><?php echo $_SESSION['username']; ?></p>
+    	<p> <a class="info__menu-btn" href="index.php?logout='1'">Выйти</a> </p>
+    <?php endif ?>    
+                    </div>
                         <div class="info-rectangle">
                             <div class="info-elemensts">
                                 <div class="row-container">
@@ -91,8 +105,10 @@
 
                             <div class="header__drop-menu">
                                 <ul>
-                                    <li class="reg__ingo-drop"><span>Здравствуйте,<br>User
-                                            <a class="red__info-link">выйти</a></span></li>
+                                <li class="reg__ingo-drop"><p class="registration-link" href="registration.html"> <?php  if (isset($_SESSION['username'])) : ?>
+    	<p class="info__menu-name">Здравствуйте<strong class="info__menu-user"><?php echo $_SESSION['username']; ?></strong></p>
+    	<p> <a class="info__menu-btn  info__menu-btn--red" href="index.php?logout='1'">Выйти</a> </p>
+    <?php endif ?> </li>
                                     <li><a>Часы</a></li>
                                     <li><a>Телефоны</a></li>
                                     <li><a>Ноутбуки</a></li>
@@ -102,9 +118,9 @@
                                 </ul>
                                 <div class="header__nav-drop">
                                     <ul>
-                                        <li><a href="pay.html">Оплата</a></li>
-                                        <li><a href="map.html">Самовывоз</a></li>
-                                        <li><a href="contact.html">Контакты</a></li>
+                                        <li><a href="pay.php">Оплата</a></li>
+                                        <li><a href="map.php">Самовывоз</a></li>
+                                        <li><a href="contact.php">Контакты</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -119,19 +135,19 @@
             <div class="product__title">IPhone 11</div>
             <div class="product__container">
                 <div class="pdoduct__img">
-                    <img src="/img/produkt/iphone12.jpg">
+                    <img src="../img/produkt/iphone11.jpg">
                 </div>
                 <div class="function__list">
                     <ul>
                         <li>Основные характеристики</li>
-                        <li>Экран:  5.4 " 1080x2340 пикселей, OLED</li>
-                        <li>Процессор:  Apple A14 Bionic </li>
+                        <li>Экран:  6.1 " 828x1792 пикселей, IPS </li>
+                        <li>Процессор:  Apple A13 Bionic 2.65 ГГц</li>
                         <li>Память:  ОЗУ 4 ГБ, 64 ГБ </li>
-                        <li>Формат SIM-карты:  Nano + eSIM</li>
+                        <li>Емкость аккумулятора:  3110 мА·ч</li>
                     </ul>
                 </div>
             </div>
-            <div class="price">Цена: 3700  BYN</div>
+            <div class="price">Цена: 1790  BYN</div>
         </div>
     </section>
     <footer class="footer">
@@ -164,7 +180,6 @@
                 <ul class="footer__col-list _anim-items">
                   <li class=" _anim-items">Понедельник- Пятница 10-19</li>
                   <li class=" _anim-items">Суббота 10-17</li>
-                
                 </ul>
               </div>
             </div>
@@ -178,8 +193,8 @@
           </div>
         </div>
       </footer>
-      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-<script src="/js/sort.js"></script>
-<script src="/js/swiper.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="../js/btn.js"></script>
+    <script src="../js/sort.js"></script>
 </body>
 </html>

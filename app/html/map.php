@@ -1,3 +1,16 @@
+<?php 
+  session_start(); 
+
+  if (!isset($_SESSION['username'])) {
+  	$_SESSION['msg'] = "You must log in first";
+  	header('location: login.php');
+  }
+  if (isset($_GET['logout'])) {
+  	session_destroy();
+  	unset($_SESSION['username']);
+  	header("location: login.php");
+  }
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -7,10 +20,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <link href="https://fonts.googleleapis.com/css?family=Roboto:500,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/css/libs.min.css">
-    <link rel="stylesheet" href="/css/style.min.css">
+    <link rel="stylesheet" href="../css/libs.min.css">
+    <link rel="stylesheet" href="../css/style.min.css">
+    <link rel="stylesheet" href="../style.css">
 </head>
 
 <body>
@@ -18,15 +31,15 @@
         <div class="container">
             <div class="header-iner">
                 <div class="header-logotip">
-                    <a class="header-logo"><span class="header-logo-strong">пк</span>мастер</a>
+                    <a href="../index.php" class="header-logo"><span class="header-logo-strong">пк</span>мастер</a>
                 </div>
                 <div class="header-menu">
                     <ul>
                         <li class="header-list">
-                            <a class="header-link" href="#dostavka">самовывоз</a>
+                            <a class="header-link" href="pay.php">оплата</a>
                         </li>
                         <li class="header-list">
-                            <a class="header-link" href="#contacts">контакты</a>
+                            <a class="header-link" href="contacts.php">контакты</a>
                         </li>
                     </ul>
                 </div>
@@ -40,10 +53,11 @@
                 <div class="info-retangle"></div>
                 <div class="info-flex">
                     <div class="info-menu">
-                        <div class="info-registration"><a class="registration-link"
-                                href="registration.html">Авторизация</a>
-                            или <a class="registration-link" href="#">Регистрация</a>
-                        </div>
+                    <div class="info-registration"><p class="registration-link" href="registration.html"> <?php  if (isset($_SESSION['username'])) : ?>
+    	<p><?php echo $_SESSION['username']; ?></p>
+    	<p> <a class="info__menu-btn" href="index.php?logout='1'">Выйти</a> </p>
+    <?php endif ?>    
+                    </div>
                         <div class="info-rectangle">
                             <div class="info-elemensts">
                                 <div class="row-container">
@@ -90,8 +104,10 @@
 
                             <div class="header__drop-menu">
                                 <ul>
-                                    <li class="reg__ingo-drop"><span>Здравствуйте,<br>User
-                                            <a class="red__info-link">выйти</a></span></li>
+                                <li class="reg__ingo-drop"><p class="registration-link" href="registration.html"> <?php  if (isset($_SESSION['username'])) : ?>
+    	<p class="info__menu-name">Здравствуйте<strong class="info__menu-user"><?php echo $_SESSION['username']; ?></strong></p>
+    	<p> <a class="info__menu-btn  info__menu-btn--red" href="index.php?logout='1'">Выйти</a> </p>
+    <?php endif ?> </li>
                                     <li><a>Часы</a></li>
                                     <li><a>Телефоны</a></li>
                                     <li><a>Ноутбуки</a></li>
@@ -101,8 +117,8 @@
                                 </ul>
                                 <div class="header__nav-drop">
                                     <ul>
-                                        <li><a href="">Самовывоз</a></li>
-                                        <li><a href="">Контакты</a></li>
+                                        <li><a href="pay.php">Оплата</a></li>
+                                        <li><a href="contact.php">Контакты</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -114,12 +130,15 @@
     </section>
     <section>
         <div class="container">
-            <div class="product__title">Оплата товара</div>
-           <div class="pay__info">Оплата осуществляется только при получении товара налчным расчетом</div>
-           <div class="pay__info-subtitle">Гарантия на товар действует со дня покупки и сроком на 1 месяц</div>
-           <div class="pay__info-other">В гарантии можнт быть отказано при наличии механических повреждений,<br> следов влаги или при отстутствии гарантийных пломб</div>
+            <div class="product__title">Мы находимся по адреесу Великая Ольшанка 7А</div>
+           <div class="map__info">Офис располагается в бело-сером сдании, найти нас можно по вывеске "ПКмастер"</div>
+           <div class="map__info-subtitle">Мы на карте</div>
         </div>
     </section>
+    <section class="location">
+  <a name="map"></a>
+        <div class="map" id="map"></div>
+      </section>
     <footer class="footer">
         <div class="footer__content">
             <div class="container">
@@ -166,9 +185,11 @@
             </div>
         </div>
     </footer>
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=184c6943-505c-462e-945f-6d1bda489780ч&lang=ru_RU"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="/js/btn.js"></script>
-    <script src="/js/sort.js"></script>
+    <script src="../js/btn.js"></script>
+    <script src="../js/map.js"></script>
+    <script src="../js/sort.js"></script>
 
 </body>
 

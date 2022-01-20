@@ -45,6 +45,7 @@ border-bottom: 1px solid #1d36b4;
     .header-menu{
         margin-right: 20px;
     text-transform: uppercase;
+    background-color: unset;
     }
     .header-iner  li + li{
         margin-left: 45px;
@@ -70,7 +71,9 @@ background-color: #ff680a;
 width: 267px;
 height: 44px;
 }
-
+.info__menu-btn{
+    margin-left: 2%;
+}
   
        .header-row{
         width: 100%;
@@ -100,12 +103,20 @@ height: 44px;
     opacity: 1;
     }
       .info-registration{
-          float: right;
           margin-right: 5%;
           color: #c0c2c4;
           font-size: 16px;
           font-family: "semibold";
           margin-top: 10px;
+          position: absolute;
+          display: flex;
+          width: 200px;
+          justify-content: space-between;
+          top: 70px;
+          right: 5%;
+      }
+      .header__menu{
+          background-color: unset;
       }
       .registration-link{
         color: rgb(254, 254, 254);
@@ -162,6 +173,7 @@ color: rgb(255, 255, 255);
 text-transform: uppercase;
 width: 190px;
 margin-top: 20px;
+line-height: 45px;
 }
 .slider-buy{
     font-size: 18px;
