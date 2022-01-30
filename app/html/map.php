@@ -55,7 +55,7 @@
                     <div class="info-menu">
                     <div class="info-registration"><p class="registration-link" href="registration.html"> <?php  if (isset($_SESSION['username'])) : ?>
     	<p><?php echo $_SESSION['username']; ?></p>
-    	<p> <a class="info__menu-btn" href="index.php?logout='1'">Выйти</a> </p>
+    	<p> <a class="info__menu-btn" href="../index.php?logout='1'">Выйти</a> </p>
     <?php endif ?>    
                     </div>
                         <div class="info-rectangle">
@@ -94,6 +94,9 @@
 
                                 <a class="info-menu" href="#pc">Системные блоки</a>
                             </li>
+                            <li class="info-list-marker">
+                            <a class="info-menu" href="../test/test.php">Полный список товаров</a>
+                        </li>
                         </ul>
                     </div>
                     <nav class="header__menu">
@@ -106,14 +109,14 @@
                                 <ul>
                                 <li class="reg__ingo-drop"><p class="registration-link" href="registration.html"> <?php  if (isset($_SESSION['username'])) : ?>
     	<p class="info__menu-name">Здравствуйте<strong class="info__menu-user"><?php echo $_SESSION['username']; ?></strong></p>
-    	<p> <a class="info__menu-btn  info__menu-btn--red" href="index.php?logout='1'">Выйти</a> </p>
+    	<p> <a class="info__menu-btn  info__menu-btn--red" href="../index.php?logout='1'">Выйти</a> </p>
     <?php endif ?> </li>
                                     <li><a>Часы</a></li>
                                     <li><a>Телефоны</a></li>
                                     <li><a>Ноутбуки</a></li>
                                     <li><a>Наушники</a></li>
                                     <li><a>Системные блоки</a></li>
-                                    <li><a>Полное наличие</a></li>
+                                    <li><a href='../test/test.php'>Полное наличие</a></li>
                                 </ul>
                                 <div class="header__nav-drop">
                                     <ul>

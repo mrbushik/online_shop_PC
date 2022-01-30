@@ -53,17 +53,6 @@
                 <a class="header-logo" href="../index.php"><span class="header-logo-strong">пк</span>мастер</a>
             </div>
             <div class="header-menu">
-                <ul>
-                    <li class="header-list">
-                        <a class="header-link" href="../html/pay.html">оплата</a>
-                    </li>
-                    <li class="header-list">
-                        <a class="header-link" href="../html/map.html">самовывоз</a>
-                    </li>
-                    <li class="header-list">
-                        <a class="header-link" href="../html/contact.html">контакты</a>
-                    </li>
-                </ul>
             </div>
         </div>
     </div>

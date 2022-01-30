@@ -11,12 +11,12 @@
   	<h2 class="title">Регистрация</h2>
   
 	
-  <form class="header__info-form" method="post" action="registration.php>
+  <form class="header__info-form" method="post" action="registration.php">
   	<?php include('errors.php'); ?>
-  	<div class="input-group">
+		  <div class="input-group">
   	  <label >Имя</label>
   	  <input class="imput__name" type="text" name="username" value="<?php echo $username; ?>">
-  	</div>
+  	      </div>
   	<div class="input-group">
   	  <label >Email</label>
   	  <input class="imput__email" type="email" name="email" value="<?php echo $email; ?>">
@@ -33,9 +33,10 @@
   	  <button class="form__btn" type="submit" class="registration-btn"  name="reg_user">Register</button>
   	</div>
   	<p>
-  		Уже зарегестрированны? <a href="login.html" class="header__info-link">Войти</a>
+  		Уже зарегестрированны? <a href="login.php" class="header__info-link">Войти</a>
   	</p>
   </form>
+  </div>
 </div>
 </header>
 </body>

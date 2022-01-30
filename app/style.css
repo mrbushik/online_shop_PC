@@ -123,6 +123,9 @@ color: red;
 .info__menu-user{
   margin-left: 2%;
 }
+.pay__info{
+  margin-bottom: 40px;
+}
 @media (max-width: 1030px) {
   .header__menu{
     background-color: unset;

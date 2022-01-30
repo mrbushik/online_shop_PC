@@ -56,7 +56,7 @@
                     <div class="info-menu">
                     <div class="info-registration"><p class="registration-link" href="registration.html"> <?php  if (isset($_SESSION['username'])) : ?>
     	<p><?php echo $_SESSION['username']; ?></p>
-    	<p> <a class="info__menu-btn" href="index.php?logout='1'">Выйти</a> </p>
+    	<p> <a class="info__menu-btn" href="../index.php?logout='1'">Выйти</a> </p>
     <?php endif ?>    
                     </div>
                         <div class="info-rectangle">
@@ -133,22 +133,22 @@
     </section>
     <section>
         <div class="container">
-            <div class="product__title">IPhone 12</div>
+            <div class="product__title">MacBook Air 13</div>
             <div class="product__container">
                 <div class="pdoduct__img">
-                    <img src="../img/produkt/iphone12.jpg">
+                    <img src="../img/produkt/macsilver1.png">
                 </div>
                 <div class="function__list">
                     <ul>
                         <li>Основные характеристики</li>
-                        <li>Экран:  5.4 " 1080x2340 пикселей, OLED</li>
-                        <li>Процессор:  Apple A14 Bionic </li>
-                        <li>Память:  ОЗУ 4 ГБ, 64 ГБ </li>
-                        <li>Формат SIM-карты:  Nano + eSIM</li>
+                        <li>Экран:  13.3 " 2560х1600 p, IPS 60 Гц, 400 кд/м2</li>
+                        <li>Процессор:  Apple M1 M1 8 -ядерный, 3.2 ГГц - 3.2 </li>
+                        <li>Видеокарта:  Встроенная Apple M1 GPU (7 ядер) </li>
+                        <li>Память:  ОЗУ 8 ГБ DDR4 , SSD 256 ГБ</li>
                     </ul>
                 </div>
             </div>
-            <div class="price">Цена: 2190  BYN</div>
+            <div class="price">Цена: 3700  BYN</div>
         </div>
     </section>
     <footer class="footer">
@@ -181,6 +181,7 @@
                 <ul class="footer__col-list _anim-items">
                   <li class=" _anim-items">Понедельник- Пятница 10-19</li>
                   <li class=" _anim-items">Суббота 10-17</li>
+                
                 </ul>
               </div>
             </div>
@@ -195,7 +196,7 @@
         </div>
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="../js/btn.js"></script>
-    <script src="../js/sort.js"></script>
+      <script src="../js/btn.js"></script>
+      <script src="../js/sort.js"></script>
 </body>
 </html>

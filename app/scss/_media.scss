@@ -51,9 +51,10 @@
             margin-bottom: 30px;
         }
     }
-.header__menu{
-    background-color: unset;
-}
+
+    .header__menu {
+        background-color: unset;
+    }
 
     .header__nav-drop {
         display: none;
@@ -75,12 +76,14 @@
     .recommemded-products {
         height: unset;
     }
-.map__info-subtitle{
-    top: 367px;
-}
-.map{
-    margin-top: 130px;
-}
+
+    .map__info-subtitle {
+        top: 367px;
+    }
+
+    .map {
+        margin-top: 130px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -113,6 +116,42 @@
 
     .price {
         margin-top: 20px;
+    }
+
+    .repair__inner {
+        flex-wrap: wrap;
+    }
+
+    .repair__item-unvisible {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .repair__item-adaptive {
+        display: none;
+    }
+
+    .repair__item-subtitle {
+        margin-top: 90px;
+    }
+
+    .repair__item-rectangle {
+        margin-left: 15%;
+    }
+}
+
+@media (max-width: 740px) {
+    .repair__inner {
+        justify-content: center;
+    }
+
+    .repair__item-subtitle {
+        margin-left: unset;
+        margin-top: 50px;
+    }
+
+    .repair__item-rectangle {
+        margin: 30px auto;
     }
 }
 
@@ -159,7 +198,8 @@
     .header-menu {
         display: none;
     }
-    .map__info-subtitle{
+
+    .map__info-subtitle {
         top: 390px;
     }
 }
@@ -186,11 +226,21 @@
         }
     }
 }
+
 @media (max-width: 533px) {
-.map__info-subtitle{
-    top: 415px;
-   }
+    .map__info-subtitle {
+        top: 415px;
+    }
 }
+
+@media (max-width: 400px) {
+    .repair__item-img {
+        height: auto;
+        width: 100%;
+    }
+
+}
+
 @media (max-width: 420px) {
     .pdoduct__img {
         img {
@@ -198,15 +248,18 @@
             width: 100%;
         }
     }
-    .function__list{
+
+    .function__list {
         padding-left: unset;
-        ul{
+
+        ul {
             padding-left: unset;
         }
     }
 }
+
 @media (max-width: 351px) {
-    .map__info-subtitle{
-        top: 435px; 
-       }
+    .map__info-subtitle {
+        top: 435px;
+    }
 }

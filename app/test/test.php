@@ -16,6 +16,11 @@ require_once 'config/connect.php';
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <style>
+      .print {
+    margin-left: 50%;
+    margin-top: 20px;
+    border-radius: 5%;
+}
     th, td {
         padding: 10px;
     }
@@ -44,6 +49,10 @@ font-size: 18px;
 position: absolute;
 margin-left: 3%;
     }
+    .product__table{
+        margin: 0 auto;
+    }
+  
 </style>
 <body>
 <header class="header">
@@ -55,13 +64,13 @@ margin-left: 3%;
             <div class="header-menu">
                 <ul>
                     <li class="header-list">
-                        <a class="header-link" href="../html/pay.html">оплата</a>
+                        <a class="header-link" href="../html/pay.php">оплата</a>
                     </li>
                     <li class="header-list">
-                        <a class="header-link" href="../html/map.html">самовывоз</a>
+                        <a class="header-link" href="../html/map.php">самовывоз</a>
                     </li>
                     <li class="header-list">
-                        <a class="header-link" href="../html/contact.html">контакты</a>
+                        <a class="header-link" href="../html/contact.php">контакты</a>
                     </li>
                 </ul>
             </div>
@@ -70,7 +79,7 @@ margin-left: 3%;
     
 </header>
    
-    <table>
+    <table class="product__table">
         <tr>
             <th>номер</th>
             <th>название</th>
@@ -78,7 +87,7 @@ margin-left: 3%;
             <th>цена</th>
         </tr>
 <div class="list">полный список товара!</div>
-<div class="list__info">для заказа товара укажите его номер в списке</div>
+<div class="list__info">При самовывозе назовите номер товара мастеру</div>
 <button  calss="print" onclick="javascrypt:window.print()">печать</button>  
  <?php
 

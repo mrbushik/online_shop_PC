@@ -88,6 +88,9 @@
                         <li class="info-list-marker">
                             <a class="info-menu" href="#pc">Системные блоки</a>
                         </li>
+                        <li class="info-list-marker">
+                            <a class="info-menu" href="test/test.php">Полный список товаров</a>
+                        </li>
                     </ul>
                 </div>
                 <nav class="header__menu">
@@ -106,7 +109,7 @@
                         <li><a>Ноутбуки</a></li>
                         <li><a>Наушники</a></li>
                         <li><a>Системные блоки</a></li>
-                        <li><a>Полное наличие</a></li>
+                        <li><a href="test/test.php">Полное наличие</a></li>
                     </ul>
                     <div class="header__nav-drop">
                         <ul>
@@ -127,7 +130,7 @@
                                     <div class="slider__item-title">Apple</div>
                                     <div class="slider-subtitle">iphone 11 pro</div>
                                     <div class="slider-price">от 2290 BYN</div>                            
-                                    <a href="html/slider1.html" class="slider-buy">Купить</a>
+                                    <a href="html/slider1.php" class="slider-buy">Купить</a>
                                 </div>
                             </div>
                         </div>
@@ -137,7 +140,7 @@
                                     <div class="slider__item-title">Apple Watch</div>
                                     <div class="slider-subtitle">Series 5</div>
                                     <div class="slider-price">ОТ 890 BYN</div>
-                                    <a href="html/slider2.html" class="slider-buy">Купить</a>
+                                    <a href="html/slider2.php" class="slider-buy">Купить</a>
                                 </div>
                             </div>
                         </div>
@@ -146,7 +149,7 @@
                                 <div class="slider-subtitle" id="monster-beasts">Monster
                                     Beats</div>
                                 <div class="slider-price" id="prise-monster-beats-slider">от 2290 BYN</div>
-                                <a href="html/slader3.html" class="slider-buy" id="buy-slider">Купить</a>
+                                <a href="html/slader3.php" class="slider-buy" id="buy-slider">Купить</a>
                                 <div class="slider__item"><img id="slider-img" src="img/slider3.png">
                                 </div>
                             </div>
@@ -187,32 +190,32 @@
                         <div class="rec-imformation">Apple MacBook Pro13
                             (серебристый)</div>
                         <div class="rec-price">3700 BYN</div>
-                        <a class="rec-buy" href="/html/product2.php">Купить</a>
+                        <a class="rec-buy" href="html/product2.php">Купить</a>
                     </div>
                     <div class="rec-item">
                         <img class="rec-img" src="img/rec3.png">
                         <div class="rec-imformation">Apple MacBook Air 13
-                            (серебристый))</div>
+                            (серебристый)</div>
                         <div class="rec-price">2900 BYN</div>
-                        <a class="rec-buy" href="/html/product3.php">Купить</a>
+                        <a class="rec-buy" href="html/product3.php">Купить</a>
                     </div>
                     <div class="rec-item">
                         <img class="rec-img" style="margin-left: 30%;" src="img/rec4.png">
                         <div class="rec-imformation">Apple AirPods 2</div>
                         <div class="rec-price">490 BYN</div>
-                        <a class="rec-buy" href="/html/product4.php">Купить</a>
+                        <a class="rec-buy" href="html/product4.php">Купить</a>
                     </div>
                     <div class="rec-item">
                         <img class="rec-img" src="img/rec5.png">
                         <div class="rec-imformation">Apple AirPods Pro</div>
                         <div class="rec-price">790 BYN</div>
-                        <a class="rec-buy" href="/html/product5.php">Купить</a>
+                        <a class="rec-buy" href="html/product5.php">Купить</a>
                     </div>
                     <div class="rec-item">
                         <img class="rec-img" style="margin-left: 28%;" src="img/rec6.png">
                         <div class="rec-imformation">Apple AirPods Max</div>
                         <div class="rec-price">1890 BYN</div>
-                        <a class="rec-buy" href="/html/product6.php">Купить</a>
+                        <a class="rec-buy" href="html/product6.php">Купить</a>
                     </div> 
             </div>
         </div>
@@ -240,25 +243,25 @@
                 <img class="watch-img" src="img/watchS3.png">
                 <div class="rec-imformation">Apple Watch <br>Series 3</div>
                 <div class="rec-price">790 BYN</div>
-                <a class="rec-buy" href="html/watch1.html">Купить</a>
+                <a class="rec-buy" href="html/watch1.php">Купить</a>
             </div>
             <div class="watch-item mix watch category-popular" data-order="2">
                 <img class="watch-img" src="img/watchSE.png">
                 <div class="rec-imformation">Apple Watch<br> Series SE</div>
                 <div class="rec-price">1190 BYN</div>
-                <a class="rec-buy" href="html/watch2.html">Купить</a>
+                <a class="rec-buy" href="html/watch2.php">Купить</a>
             </div>
             <div class="watch-item mix watch" data-order="3">
                 <img class="watch-img" src="img/watch7-1.png">
                 <div class="rec-imformation">Apple Watch<br> Series 7</div>
                 <div class="rec-price">1490 BYN</div>
-                <a class="rec-buy" href="html/watch3.html">Купить</a>
+                <a class="rec-buy" href="html/watch3.php">Купить</a>
             </div>
             <div class="watch-item mix watch" data-order="4">
                 <img class="watch-img" src="img/watch7-2.png">
                 <div class="rec-imformation">Apple Watch <br>Series 7</div>
                 <div class="rec-price">1490 BYN</div>
-                <a class="rec-buy" href="html/watch4.html">Купить</a>
+                <a class="rec-buy" href="html/watch4.php">Купить</a>
             </div>
             <!-- телефоны -->
             <a name="phone"></a>
@@ -373,6 +376,21 @@
                 <button type="button" data-filter=".category-new">Новинки</button>
                 <button type="button" data-filter=".category-popular">Популярное</button>
             </div>
+    </div>
+</section>
+<section class="repair">
+    <div class="container">
+    <div class="repair__item-title repair__item-unvisible">Так же мы предоставляем услуги ремонта ваших гаджетов</div>
+    <div class="repair__inner">
+        <div class="repair__item ">
+            <img  class="repair__item-img" src="img/repair__img.jpg">
+        </div>
+        <div class="repair__item">
+        <div class="repair__item-title repair__item-adaptive">Так же мы предоставляем услуги ремонта ваших гаджетов</div>
+        <div class="repair__item-subtitle">У Вас сломался телефон? Пролили кофе на ноутбук? Мы знаем как вам помочь!</div>
+        <div class="repair__item-rectangle"><a href="https://pcmaster-grodno1.000webhostapp.com" class="repair__item-link"> узнать подробности</a></div>
+        </div>
+    </div>
     </div>
 </section>
 <footer class="footer">

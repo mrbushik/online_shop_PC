@@ -26,7 +26,10 @@ if (animItems.length > 0) {
         const rect = el.getBoundingClientRect()
         let scrollLeft = window.pageXOffset || document.documentElement.scrollLeft
         let scrollTop = window.pageYOffset || document.documentElement.scrollTop
-        return {top: rect.top + scrollTop, left: rect.left + scrollLeft}
+        return {
+            top: rect.top + scrollTop,
+            left: rect.left + scrollLeft
+        }
     }
 
     setTimeout(() => {
