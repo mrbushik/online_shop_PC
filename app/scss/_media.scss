@@ -84,6 +84,27 @@
     .map {
         margin-top: 130px;
     }
+
+    //страницы с фильтром
+    .filter__btn {
+        margin-top: unset;
+    }
+
+    .clients__info {
+        margin: 50px auto 0;
+    }
+
+    .filter__inner {
+        margin-bottom: 50px;
+    }
+
+    .filter__inner {
+        margin-top: 60px;
+    }
+
+    .bird__img {
+        display: none;
+    }
 }
 
 @media (max-width: 800px) {
@@ -138,6 +159,8 @@
     .repair__item-rectangle {
         margin-left: 15%;
     }
+
+
 }
 
 @media (max-width: 740px) {
@@ -230,6 +253,12 @@
 @media (max-width: 533px) {
     .map__info-subtitle {
         top: 415px;
+    }
+
+    .clients__info {
+        width: unset;
+        margin-left: 5%;
+        margin-right: 5%;
     }
 }
 

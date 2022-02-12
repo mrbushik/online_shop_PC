@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="filter__page-rectangle">
+                    <div class="info-list-rectangle ">
                     <ul class="info-list">
                         <!-- <li class="info-list-marker">
                             <a class="info-menu" href="#watch"><div class="info-menu-text">Часы</div></a>
@@ -112,6 +112,8 @@
                         <li><a>Прочее</a></li>
                         <li><a href='../test/test.php'>Полное наличие</a></li>
                     </ul>
+                                <div class="header__nav-drop">
+                                    <ul>
                                     <li><a href="pay.php">Оплата</a></li>
                                         <li><a href="map.php">Самовывоз</a></li>
                                         <li><a href="contact.php">Контакты</a></li>
@@ -128,13 +130,14 @@
      <div class="container">
        <div class="clients__info">Уважаемые клиенты в этом разделе вы можете подобрать подходящий вам 
          товар выбрав нужный для вас параметр</div>
+         <img class='bird__img' src="../img/bird.png">
 <div class="filter__inner">
   <div class="filter__sort">
 
   </div>
   <div class="products__inner-btn filter__btn">
     <button class="watch-filter" type="button" data-filter="all">Все товары</button>
-    <button class="watch-filter" type="button" data-filter=".watch">Дешевле 3000 BYN</button>
+    <button class="watch-filter" type="button" data-filter=".watch">Дешевле 1500 BYN</button>
     <button class="watch-filter" type="button" data-filter=".phone">Для работы</button>
     <button class="watch-filter" type="button" data-filter=".airpods">Для сложных задач</button>
     <button class="watch-filter" type="button" data-filter=".notebook">Игровой</button>
@@ -142,107 +145,85 @@
 <div class="watch-container">
     <a name="watch"></a>
     <!-- часы -->
-    <div class="watch-item mix watch" data-order="1">
+    <div class="watch-item mix watch phone" data-order="1">
         <a name="watch"></a>
-        <img class="watch-img" src="img/watchS3.png">
-        <div class="rec-imformation">Apple Watch <br>Series 3</div>
-        <div class="rec-price">790 BYN</div>
+        <img class="watch-img img__main-product" src="../img/notebook1.jpg">
+        <div class="rec-imformation">Asus Vivobook 14<br>X409FA-BV606
+</div>
+        <div class="rec-price">1255 BYN</div>
         <a class="rec-buy" href="html/watch1.php">Купить</a>
     </div>
-    <div class="watch-item mix watch category-popular" data-order="2">
-        <img class="watch-img" src="img/watchSE.png">
-        <div class="rec-imformation">Apple Watch<br> Series SE</div>
-        <div class="rec-price">1190 BYN</div>
+    <div class="watch-item mix airpods notebook" data-order="2">
+    <img class="watch-img img__main-product" src="../img/notebook2.jpg">
+        <div class="rec-imformation"> Asus TUF Gaming F15</div>
+        <div class="rec-price">2655 BYN</div>
         <a class="rec-buy" href="html/watch2.php">Купить</a>
     </div>
-    <div class="watch-item mix watch" data-order="3">
-        <img class="watch-img" src="img/watch7-1.png">
-        <div class="rec-imformation">Apple Watch<br> Series 7</div>
-        <div class="rec-price">1490 BYN</div>
+    <div class="watch-item mix watch phone" data-order="3">
+    <img class="watch-img img__main-product" src="../img/notebook3.jpg">
+        <div class="rec-imformation"> Lenovo IdeaPad 3 
+<br>15ALC6 </div>
+        <div class="rec-price">1497 BYN</div>
         <a class="rec-buy" href="html/watch3.php">Купить</a>
     </div>
     <div class="watch-item mix watch" data-order="4">
-        <img class="watch-img" src="img/watch7-2.png">
-        <div class="rec-imformation">Apple Watch <br>Series 7</div>
-        <div class="rec-price">1490 BYN</div>
+    <img class="watch-img img__main-product" src="../img/notebook4.jpg">
+        <div class="rec-imformation">ASUS VivoBook<br>E410MA-BV1517</div>
+        <div class="rec-price">955 BYN</div>
         <a class="rec-buy" href="html/watch4.php">Купить</a>
     </div>
     <!-- телефоны -->
-    <a name="phone"></a>
-    <div class="watch-item mix phone category-popular" data-order="5">
-        <img class="Iphone-img" src="img/IPhone11.png">
-        <div class="rec-imformation">Apple IPhone 11</div>
-        <div class="rec-price">1790 BYN</div>
+  
+    <div class="watch-item mix watch" data-order="5">
+    <img class="watch-img img__main-product" src="../img/notebook5.jpg">
+        <div class="rec-imformation">Haier U1520EM
+</div>
+        <div class="rec-price">808 BYN</div>
         <a class="rec-buy" href="html/iphine1.php">Купить</a>
     </div>
-    <div class="watch-item mix phone category-new" data-order="6">
-        <img class="Iphone-img" src="img/IPhone12.png">
-        <div class="rec-imformation">Applee IPhone 12</div>
-        <div class="rec-price">2190 BYN</div>
+    <div class="watch-item mix category-new" data-order="6">
+    <img class="watch-img img__main-product" src="../img/notebook6.jpg">
+        <div class="rec-imformation">HP 15s-fq2051ur</div>
+        <div class="rec-price">1597 BYN</div>
         <a class="rec-buy" href="html/iphone2.php">Купить</a>
     </div>
     <div class="watch-item mix phone" data-order="7">
-        <img class="Iphone-img" src="img/Iphone12mini.png">
-        <div class="rec-imformation">Apple IPhone 12 mini</div>
-        <div class="rec-price">1990 BYN</div>
+    <img class="watch-img img__main-product" src="../img/notebook7.jpg">
+        <div class="rec-imformation"> Honor MagicBook X14 NBR-WAI9</div>
+        <div class="rec-price">1697 BYN</div>
         <a class="rec-buy" href="html/iphone3.php">Купить</a>
     </div>
-    <div class="watch-item mix phone" data-order="8">
-        <img class="Iphone-img" src="img/IPhoneSE.png">
-        <div class="rec-imformation">Apple IPhone SE</div>
-        <div class="rec-price">1390 BYN</div>
+    <div class="watch-item mix airpods notebook" data-order="8">
+    <img class="watch-img img__main-product" src="../img/notebook8.jpg">
+        <div class="rec-imformation">HP Pavilion Gaming 15-ec1040ur </div>
+        <div class="rec-price">2815 BYN</div>
         <a class="rec-buy" href="html/iphone4.php">Купить</a>
     </div>
-    <!-- Наушники -->
-    <a name="airpods"></a>
-    <div class="watch-item mix airpods" data-order="9">
-        <img class="rec-img" style="margin-left: 30%;" src="img/rec4.png">
-        <div class="rec-imformation">Apple AirPods 2</div>
-        <div class="rec-price">490 BYN</div>
-        <a class="rec-buy" href="html/product4.php">Купить</a>
-    </div>
-    <div class="watch-item mix airpods" data-order="10">
-        <img class="rec-img" src="img/rec5.png">
-        <div class="rec-imformation">Apple AirPods Pro</div>
-        <div class="rec-price">790 BYN</div>
-        <a class="rec-buy" href="html/product5.php">Купить</a>
-    </div>
-    <div class="watch-item mix airpods category-new" data-order="11">
-        <img class="rec-img" style="margin-left: 21%;" src="img/rec6.png">
-        <div class="rec-imformation">Apple AirPods Max</div>
-        <div class="rec-price">1890 BYN</div>
-        <a class="rec-buy" href="html/product6.php">Купить</a>
-    </div>
-    <div class="watch-item mix airpods" data-order="12">
-        <img class="rec-img" style="margin-left: 21%;" src="img/Слой 31.png">
-        <div class="rec-imformation">Apple AirPods 3</div>
-        <div class="rec-price">690 BYN</div>
-        <a class="rec-buy" href="html/product8.php">Купить</a>
-    </div>
+   
     <!-- ноуты -->
     <a name="notebook"></a>
-    <div class="watch-item mix notebook" data-order="13">
+    <div class="watch-item mix  phone" data-order="13">
         <img class="rec-img" src="../img/rec1.png">
         <div class="rec-imformation">Apple MacBook Air 13
             (розовый)</div>
         <div class="rec-price">2900 BYN</div>
         <a class="rec-buy" href="html/product1.php">Купить</a>
     </div>
-    <div class="watch-item mix notebook" data-order="14">
+    <div class="watch-item mix airpods" data-order="14">
         <img class="rec-img" src="../img/rec2.png">
         <div class="rec-imformation">Apple MacBook Pro13
             (серебристый)</div>
         <div class="rec-price">3700 BYN</div>
         <a class="rec-buy" href="html/product2.php">Купить</a>
     </div>
-    <div class="watch-item mix notebook category-popular" data-order="15">
+    <div class="watch-item mix phone" data-order="15">
         <img class="rec-img" src="../img/rec3.png">
         <div class="rec-imformation">Apple MacBook Air 13
             (серебристый)</div>
         <div class="rec-price">2900 BYN</div>
         <a class="rec-buy" href="html/product3.php">Купить</a>
     </div>
-    <div class="watch-item mix notebook category-new" data-order="16">
+    <div class="watch-item mix airpods" data-order="16">
         <img class="rec-img" src="../img/мак4.png">
         <div class="rec-imformation">Apple MacBook Pro 13
             (золотой)</div>
@@ -250,31 +231,7 @@
         <a class="rec-buy" href="html/product7.php">Купить</a>
     </div>
     <!-- start pc -->
-    <a name="pc"></a>
-    <div class="watch-item mix system">
-        <img class="rec-img" src="img/pc1.png">
-        <div class="rec-imformation">Компьютер на базе AMD Ryzen 5 3600X</div>
-        <div class="rec-price">2999 BYN</div>
-        <a class="rec-buy" href="html/pc1.php">Купить</a>
-    </div>
-    <div class="watch-item mix system" data-order="18">
-        <img class="rec-img" src="img/pc2.png">
-        <div class="rec-imformation">Компьютер на базе AMD Ryzen 3 3200G </div>
-        <div class="rec-price">1290 BYN</div>
-        <a class="rec-buy" href="html/pc2.php">Купить</a>
-    </div>
-    <div class="watch-item mix system category-popular" data-order="19">
-        <img class="rec-img" src="img/pc3.png">
-        <div class="rec-imformation">Компьютер на базе Intel Core i5-9400F</div>
-        <div class="rec-price">3590 BYN</div>
-        <a class="rec-buy" href="html/pc3.php">Купить</a>
-    </div>
-    <div class="watch-item mix system category-new" data-order="20">
-        <img class="rec-img" src="img/pc4.png">
-        <div class="rec-imformation">Компьютер на базе Intel Core i7-9700</div>
-        <div class="rec-price">1900 BYN</div>
-        <a class="rec-buy" href="html/pc4.php">Купить</a>
-    </div>
+  
 </div>
 </div>
 </div>  

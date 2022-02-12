@@ -78,7 +78,7 @@
                         </li>
              -->
                         <li class="info-list-marker">
-                            <a class="info-menu" href="#notebook">Ноутбуки</a>
+                            <a class="info-menu" href=" html/main_noterbook.php">Ноутбуки</a>
                         </li>
                         <li class="info-list-marker">
                             <a class="info-menu" href="#airpods">Наушники</a>
@@ -107,7 +107,7 @@
     <?php endif ?> </li>
                         <!-- <li><a>Часы</a></li> -->
       
-                        <li><a>Ноутбуки</a></li>
+                        <li><a href=" html/main_noterbook.php">Ноутбуки</a></li>
                         <li><a>Наушники</a></li>
                         <li><a>Системные блоки</a></li>
                         <li><a>Прочее</a></li>

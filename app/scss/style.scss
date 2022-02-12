@@ -646,9 +646,14 @@ footer__info-phone._active {
 }
 
 //start-page produkt
+.filter {
+    margin-bottom: 70px;
+}
+
 .page__img {
     text-align: center;
 }
+
 
 .page__list {
     width: 340px;
@@ -810,6 +815,22 @@ footer__info-phone._active {
 }
 
 //страница main noterbook
+
+.filter__inner {
+    background-color: #f7f9fb;
+    padding-bottom: 50px;
+    margin-top: 50px;
+}
+
+.bird__img {
+    height: 200px;
+    margin-left: 50%;
+}
+
+.img__main-product {
+    margin-left: 15%;
+}
+
 .clients__info {
     width: 500px;
     margin-left: 45%;
@@ -836,8 +857,6 @@ footer__info-phone._active {
     height: 350px;
 }
 
-.filter__btn {
-    margin-top: 175px;
-}
+
 
 @import"_media";
