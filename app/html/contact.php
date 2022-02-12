@@ -69,52 +69,47 @@
                         </div>
                     </div>
                     <div class="info-list-rectangle">
-                        <ul class="info-list">
-                            <li class="info-list-marker">
-                                <a class="info-menu" href="#watch">
-                                    <div class="info-menu-text">Часы</div>
-                                </a>
-                            </li>
-                            <li class="info-list-marker">
-
-                                <a class="info-menu" href="#phone">Телефоны</a>
-                            </li>
-                            <li class="info-list-marker">
-
-                                <a class="info-menu" href="#notebook">Ноутбуки</a>
-                            </li>
-                            <li class="info-list-marker">
-
-                                <a class="info-menu" href="#airpods">Наушники</a>
-                            </li>
-                            <li class="info-list-marker">
-
-                                <a class="info-menu" href="#pc">Системные блоки</a>
-                            </li>
-                            <li class="info-list-marker">
-                            <a class="info-menu" href="../test/test.php">Полный список товаров</a>
+                    <ul class="info-list">
+                        <!-- <li class="info-list-marker">
+                            <a class="info-menu" href="#watch"><div class="info-menu-text">Часы</div></a>
                         </li>
-                        </ul>
-                    </div>
-                    <nav class="header__menu">
-                        <div class="header__menu-btn">
-                            <div class="drop-row"></div>
-                            <div class="drop-row"></div>
-                            <div class="drop-row"></div>
-
-                            <div class="header__drop-menu">
-                                <ul>
-                                <li class="reg__ingo-drop"><p class="registration-link" href="registration.html"> <?php  if (isset($_SESSION['username'])) : ?>
+             -->
+                        <li class="info-list-marker">
+                            <a class="info-menu" href="#notebook">Ноутбуки</a>
+                        </li>
+                        <li class="info-list-marker">
+                            <a class="info-menu" href="#airpods">Наушники</a>
+                        </li>
+                        <li class="info-list-marker">
+                            <a class="info-menu" href="#pc">Системные блоки</a>
+                        </li>
+                        <li class="info-list-marker">
+                            <a class="info-menu" href="#phone">Прочее</a>
+                        </li>
+                        <li class="info-list-marker">
+                        <a class="info-menu" href="../test/test.php">Полный список товаров</a>
+                        </li>
+                    </ul>
+                </div>
+                <nav class="header__menu">
+                    <div class="header__menu-btn">
+                      <div class="drop-row"></div>
+                      <div class="drop-row"></div>
+                      <div class="drop-row"></div>          
+                    <div class="header__drop-menu">
+                    <ul>
+                        <li class="reg__ingo-drop"><p class="registration-link" href="registration.html"> <?php  if (isset($_SESSION['username'])) : ?>
     	<p class="info__menu-name">Здравствуйте<strong class="info__menu-user"><?php echo $_SESSION['username']; ?></strong></p>
-    	<p> <a class="info__menu-btn  info__menu-btn--red" href="../index.php?logout='1'">Выйти</a> </p>
+    	<p> <a class="info__menu-btn  info__menu-btn--red" href="index.php?logout='1'">Выйти</a> </p>
     <?php endif ?> </li>
-                                    <li><a>Часы</a></li>
-                                    <li><a>Телефоны</a></li>
-                                    <li><a>Ноутбуки</a></li>
-                                    <li><a>Наушники</a></li>
-                                    <li><a>Системные блоки</a></li>
-                                    <li><a>Полное наличие</a></li>
-                                </ul>
+                        <!-- <li><a>Часы</a></li> -->
+      
+                        <li><a>Ноутбуки</a></li>
+                        <li><a>Наушники</a></li>
+                        <li><a>Системные блоки</a></li>
+                        <li><a>Прочее</a></li>
+                        <li><a href='../test/test.php'>Полное наличие</a></li>
+                    </ul>
                                 <div class="header__nav-drop">
                                     <ul>
                                         <li><a href="pay.php">Оплата</a></li>

@@ -73,12 +73,10 @@
                 </div>
                 <div class="info-list-rectangle">
                     <ul class="info-list">
-                        <li class="info-list-marker">
+                        <!-- <li class="info-list-marker">
                             <a class="info-menu" href="#watch"><div class="info-menu-text">Часы</div></a>
                         </li>
-                        <li class="info-list-marker">
-                            <a class="info-menu" href="#phone">Телефоны</a>
-                        </li>
+             -->
                         <li class="info-list-marker">
                             <a class="info-menu" href="#notebook">Ноутбуки</a>
                         </li>
@@ -87,6 +85,9 @@
                         </li>
                         <li class="info-list-marker">
                             <a class="info-menu" href="#pc">Системные блоки</a>
+                        </li>
+                        <li class="info-list-marker">
+                            <a class="info-menu" href="#phone">Прочее</a>
                         </li>
                         <li class="info-list-marker">
                             <a class="info-menu" href="test/test.php">Полный список товаров</a>
@@ -104,11 +105,12 @@
     	<p class="info__menu-name">Здравствуйте<strong class="info__menu-user"><?php echo $_SESSION['username']; ?></strong></p>
     	<p> <a class="info__menu-btn  info__menu-btn--red" href="index.php?logout='1'">Выйти</a> </p>
     <?php endif ?> </li>
-                        <li><a>Часы</a></li>
-                        <li><a>Телефоны</a></li>
+                        <!-- <li><a>Часы</a></li> -->
+      
                         <li><a>Ноутбуки</a></li>
                         <li><a>Наушники</a></li>
                         <li><a>Системные блоки</a></li>
+                        <li><a>Прочее</a></li>
                         <li><a href="test/test.php">Полное наличие</a></li>
                     </ul>
                     <div class="header__nav-drop">
@@ -126,31 +128,31 @@
                         <div class="catalog-item">
 
                             <div class="slider__item-element">
-                                <div class="slider__item"><img src="img/slider1.png">
-                                    <div class="slider__item-title">Apple</div>
-                                    <div class="slider-subtitle">iphone 11 pro</div>
-                                    <div class="slider-price">от 2290 BYN</div>                            
-                                    <a href="html/slider1.php" class="slider-buy">Купить</a>
+                                <div class="slider__item"><img src="img/slider1_2.jpg">
+                                    <!-- <div class="slider__item-title">Apple</div> -->
+                                    <!-- <div class="slider-subtitle slide1">Большой выбор ноутбуков Apple</div> -->
+                                    <!-- <div class="slider-price">от 2290 BYN</div>                            
+                                    <a href="html/slider1.php" class="slider-buy">Купить</a> -->
                                 </div>
                             </div>
                         </div>
                         <div class="catalog-item">
                             <div class="slider__item-element">
-                                <div class="slider__item"><img src="img/slider2.png">
-                                    <div class="slider__item-title">Apple Watch</div>
+                                <div class="slider__item"><img src="img/slider2_2.jpg">
+                                    <!-- <div class="slider__item-title">Apple Watch</div>
                                     <div class="slider-subtitle">Series 5</div>
                                     <div class="slider-price">ОТ 890 BYN</div>
-                                    <a href="html/slider2.php" class="slider-buy">Купить</a>
+                                    <a href="html/slider2.php" class="slider-buy">Купить</a> -->
                                 </div>
                             </div>
                         </div>
                         <div class="catalog-item">
                             <div class="slider__item-element">
-                                <div class="slider-subtitle" id="monster-beasts">Monster
+                                <!-- <div class="slider-subtitle" id="monster-beasts">Monster
                                     Beats</div>
                                 <div class="slider-price" id="prise-monster-beats-slider">от 2290 BYN</div>
-                                <a href="html/slader3.php" class="slider-buy" id="buy-slider">Купить</a>
-                                <div class="slider__item"><img id="slider-img" src="img/slider3.png">
+                                <a href="html/slader3.php" class="slider-buy" id="buy-slider">Купить</a> -->
+                                <div class="slider__item"><img id="slider-img" src="img/slider3_2.jpg">
                                 </div>
                             </div>
                         </div>

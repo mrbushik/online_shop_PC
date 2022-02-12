@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { background-color:#00CCFF;}
+.All { width:100%; float:left; background-color:#00CCFF; background:#00CCFF;}
+
+/*ëåâîå ìåíþ*/
+   .Lmenu {
+   /*border:1px solid #000000;*/
+   width:250px;
+   z-index:99;
+ 
+   /*background-color:#CCCCCC;*/
+   float:none;
+   
+   
+   left:10px;
+   }
+.MenuTop {
+margin-bottom:30px;
+} 
+.MenuElem{
+background-color:#FFFF00;
+border-left:5px solid #0000FF;
+width: inherit;
+}
+ 
+ 
+   /*Êîíòåíò*/
+   .Content{
+   /*border:1px solid #000000;*/
+   width:80%;
+   height:100%;
+   background-color: #00CCFF;
+   float:none;
+   }
+   /*êàðòèíêà íà ãëàâíîé*/
+.BigImg{}   
+   
+  /*íèæíåå ìåíþ */
+  .menuBottom { float:left; background-color:#FF0000; width:100%;}
+.menuBottom1 { float:left;} 
+.menuBottom2 { float:right;} 
+   /*Ïðàâîå ìåíþ*/
+   .Contact {
+   /*border:1px solid #000000;*/
+   width:20%;
+   height:100px;
+   background-color:#CCCCCC;
+   float:left;
+   }

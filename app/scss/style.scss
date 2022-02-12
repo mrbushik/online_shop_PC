@@ -202,6 +202,12 @@ a {
     line-height: 45px;
 }
 
+.slide {
+    width: 371px;
+    margin-left: 37%;
+    margin-top: -319px;
+}
+
 .slider-buy {
     font-size: 18px;
     font-family: 'Roboto', sans-serif;
@@ -801,6 +807,37 @@ footer__info-phone._active {
 //pay
 .pay__info {
     margin-bottom: 40px;
+}
+
+//страница main noterbook
+.clients__info {
+    width: 500px;
+    margin-left: 45%;
+    line-height: 23px;
+    margin-top: 150px;
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.filter__poducts {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 200px;
+}
+
+.filter__page-rectangle {
+    color: #fff;
+    width: 267px;
+    height: 386px;
+    -webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .22);
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .22);
+    margin-top: -35px;
+    float: left;
+    height: 350px;
+}
+
+.filter__btn {
+    margin-top: 175px;
 }
 
 @import"_media";
