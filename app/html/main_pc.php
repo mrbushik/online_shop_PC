@@ -147,7 +147,7 @@
     <!-- часы -->
     <div class="watch-item mix watch " data-order="1">
         <a name="watch"></a>
-        <img class="watch-img img__main-product" src="../img/hear1.jpg">
+        <img class="watch-img img__main-product" src="../img/system1.jpg">
         <div class="rec-imformation">Panasonic <br>RB-HF520BGEK
 </div>
         <div class="rec-price">109 BYN</div>
