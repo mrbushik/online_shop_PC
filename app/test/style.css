@@ -30,3 +30,19 @@ button {
     display: flex;
     justify-content: center;
 }
+
+.product__generate-inner {
+    display: flex;
+    justify-content: center;
+    margin: 0 10%;
+    flex-wrap: wrap;
+}
+
+.product__generate-item {
+    width: 170px;
+    height: 150px;
+    background-color: #eee9e9;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 3%;
+}

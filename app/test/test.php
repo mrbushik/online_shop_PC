@@ -89,6 +89,7 @@ margin-left: 3%;
 <div class="list">полный список товара!</div>
 <div class="list__info">При самовывозе назовите номер товара мастеру</div>
 <button  calss="print" onclick="javascrypt:window.print()">печать</button>  
+<div class="product__generate-inner"> 
  <?php
 
             /*
@@ -110,8 +111,20 @@ margin-left: 3%;
              * Ключ 2 - price
              * Ключ 3 - description
              */
-
+  
             foreach ($products as $product) {
+                ?>
+               
+            <div class="product__generate-item">
+            <div class="product__generate-name"><?= $product[1] ?></div>
+            <div class="product__generate-description"><?= $product[3] ?></div>
+            <div class="product__generate-price"><?= $product[2] ?></div>
+            </div>
+           
+            <?php
+            }
+           
+           /* foreach ($products as $product) {
                 ?>
                     <tr class='print'>
                         <td><?= $product[0] ?></td>
@@ -120,6 +133,8 @@ margin-left: 3%;
                         <td><?= $product[2] ?>BYN</td>
                     </tr>
                 <?php
-            }
+            }*/
+           
         ?>
+                 </div>
     </table>
