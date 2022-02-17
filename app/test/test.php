@@ -17,7 +17,7 @@ require_once 'config/connect.php';
 </head>
 <style>
       .print {
-    margin-left: 50%;
+        margin-left: 50%;
     margin-top: 20px;
     border-radius: 5%;
 }

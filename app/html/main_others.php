@@ -213,7 +213,7 @@
                 <div class="rec-price">1890 BYN</div>
                 <a class="rec-buy" href="html/product6.php">Купить</a>
             </div>
-            <div class="watch-item mix airpods " data-order="12">
+            <div class="watch-item mix airpods  " data-order="12">
                 <img class="rec-img" style="margin-left: 21%;" src="../img/mouse4.jpg">
                 <div class="rec-imformation">STEELSERIES Rival 3 (62513)</div>
                 <div class="rec-price">690 BYN</div>
