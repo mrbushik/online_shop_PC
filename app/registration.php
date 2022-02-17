@@ -30,7 +30,7 @@
   	  <input type="password" name="password_2">
   	</div>
   	<div class="input-group">
-  	  <button class="form__btn" type="submit" class="registration-btn"  name="reg_user">Register</button>
+  	  <button class="form__btn" type="submit" class="registration-btn"  name="reg_user">Зарегестрироваться</button>
   	</div>
   	<p>
   		Уже зарегестрированны? <a href="login.php" class="header__info-link">Войти</a>

@@ -1,0 +1,14 @@
+/* login admin page */
+.log_container {
+    margin: 150px auto 0;
+    width: 280px;
+    height: 300px;
+    background-color: #904FFF;
+    border-radius: 2%;
+}
+
+.input-group {
+    padding: 10px 0;
+    color: #2E0C69;
+    text-align: center;
+}

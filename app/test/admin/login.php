@@ -5,7 +5,6 @@
   <title>Registration system PHP and MySQL</title>
   <link rel="stylesheet" type="text/css" href="css/style.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" type="text/css" href="css/style.min.css">
 </head>
 <body>
 <header class="header">
@@ -19,7 +18,7 @@
 </header>
   <div class="login">
 	  <div class="log_container">
-  	<h2 style="padding: 10px 0 0 0;color: #2E0C69" class="logout">Вход в админ панель</h2>
+  	<h2 style="padding: 10px 0 0 25px;color: #2E0C69" class="logout">Вход в админ панель</h2>
  
 	 
   <form method="post" action="login.php">
