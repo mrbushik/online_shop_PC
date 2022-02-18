@@ -78,19 +78,19 @@
                         </li>
              -->
                         <li class="info-list-marker">
-                            <a class="info-menu" href="#notebook">Ноутбуки</a>
+                            <a class="info-menu" href=" main_noterbook.php">Ноутбуки</a>
                         </li>
                         <li class="info-list-marker">
-                            <a class="info-menu" href="#airpods">Наушники</a>
+                            <a class="info-menu" href="main_headphones.php">Наушники</a>
                         </li>
                         <li class="info-list-marker">
-                            <a class="info-menu" href="#pc">Системные блоки</a>
+                            <a class="info-menu" href="main_pc.php">Системные блоки</a>
                         </li>
                         <li class="info-list-marker">
-                            <a class="info-menu" href="#phone">Прочее</a>
+                            <a class="info-menu" href="main_others.php">Прочее</a>
                         </li>
                         <li class="info-list-marker">
-                        <a class="info-menu" href="../test/test.php">Полный список товаров</a>
+                            <a class="info-menu" href="../test/test.php">Полный список товаров</a>
                         </li>
                     </ul>
                 </div>
@@ -107,11 +107,11 @@
     <?php endif ?> </li>
                         <!-- <li><a>Часы</a></li> -->
       
-                        <li><a>Ноутбуки</a></li>
-                        <li><a>Наушники</a></li>
-                        <li><a>Системные блоки</a></li>
-                        <li><a>Прочее</a></li>
-                        <li><a href='../test/test.php'>Полное наличие</a></li>
+                        <li><a href=" main_noterbook.php">Ноутбуки</a></li>
+                        <li><a href="main_headphones.php">Наушники</a></li>
+                        <li><a href="main_pc.php">Системные блоки</a></li>
+                        <li><a href="main_others.php">Прочее</a></li>
+                        <li><a href="../test/test.php">Полное наличие</a></li>
                     </ul>
                                 <div class="header__nav-drop">
                                     <ul>

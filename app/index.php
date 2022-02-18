@@ -108,9 +108,9 @@
                         <!-- <li><a>Часы</a></li> -->
       
                         <li><a href=" html/main_noterbook.php">Ноутбуки</a></li>
-                        <li><a>Наушники</a></li>
-                        <li><a>Системные блоки</a></li>
-                        <li><a>Прочее</a></li>
+                        <li><a href="html/main_headphones.php">Наушники</a></li>
+                        <li><a href="html/main_pc.php">Системные блоки</a></li>
+                        <li><a href="html/main_others.php">Прочее</a></li>
                         <li><a href="test/test.php">Полное наличие</a></li>
                     </ul>
                     <div class="header__nav-drop">
