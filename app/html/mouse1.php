@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="info-list-rectangle ">
+                    <div class="info-list-rectangle">
                     <ul class="info-list">
                         <!-- <li class="info-list-marker">
                             <a class="info-menu" href="#watch"><div class="info-menu-text">Часы</div></a>
@@ -126,106 +126,26 @@
             </div>
         </div>
     </section>
-   <section class='filter'>
-     <div class="container">
-       <div class="clients__info">Уважаемые клиенты в этом разделе вы можете подобрать подходящий вам 
-         товар выбрав нужный для вас параметр</div>
-         <img class='bird__img' src="../img/bird.png">
-<div class="filter__inner">
-  <div class="filter__sort">
-
-  </div>
-  <div class="products__inner-btn filter__btn">
-    <button class="watch-filter" type="button" data-filter="all">Все товары</button>
-    <button class="watch-filter" type="button" data-filter=".watch">Часы</button>
-    <button class="watch-filter" type="button" data-filter=".phone">Телефоны</button>
-    <button class="watch-filter" type="button" data-filter=".airpods">Компьютерные мыши</button>
-</div>
-<div class="watch-container">
-    <a name="watch"></a>
-    <!-- часы -->
-    <div class="watch-item mix watch" data-order="1">
-                <a name="watch"></a>
-                <img class="watch-img" src="../img/watchS3.png">
-                <div class="rec-imformation">Apple Watch <br>Series 3</div>
-                <div class="rec-price">790 BYN</div>
-                <a class="rec-buy" href="watch1.php">Купить</a>
+    <section>
+        <div class="container">
+            <div class="product__title">мышь Logitech G102 </div>
+            <div class="product__container">
+                <div class="pdoduct__img">
+                    <img src="../img/produkt/mouse1.jpg">
+                </div>
+                <div class="function__list">
+                    <ul>
+                        <li>Основные характеристики</li>
+                        <li>  Тип мыши:  Игровая</li>
+                        <li>СТип соединения мыши:  Проводная</li>
+                        <li>Сенсор мыши:  Оптический</li>
+                        <li>Разьем для подключения мыши:  USB</li>
+                    </ul>
+                </div>
             </div>
-            <div class="watch-item mix watch category-popular" data-order="2">
-                <img class="watch-img" src="../img/watchSE.png">
-                <div class="rec-imformation">Apple Watch<br> Series SE</div>
-                <div class="rec-price">1190 BYN</div>
-                <a class="rec-buy" href="watch2.php">Купить</a>
-            </div>
-            <div class="watch-item mix watch" data-order="3">
-                <img class="watch-img" src="../img/watch7-1.png">
-                <div class="rec-imformation">Apple Watch<br> Series 7</div>
-                <div class="rec-price">1490 BYN</div>
-                <a class="rec-buy" href="watch3.php">Купить</a>
-            </div>
-            <div class="watch-item mix watch" data-order="4">
-                <img class="watch-img" src="../img/watch7-2.png">
-                <div class="rec-imformation">Apple Watch <br>Series 7</div>
-                <div class="rec-price">1490 BYN</div>
-                <a class="rec-buy" href="watch4.php">Купить</a>
-            </div>
-    <!-- телефоны -->
-    <div class="watch-item mix phone " data-order="5">
-                <img class="Iphone-img" src="../img/IPhone11.png">
-                <div class="rec-imformation">Apple IPhone 11</div>
-                <div class="rec-price">1790 BYN</div>
-                <a class="rec-buy" href="html/iphine1.php">Купить</a>
-            </div>
-            <div class="watch-item mix phone category-new" data-order="6">
-                <img class="Iphone-img" src="../img/IPhone12.png">
-                <div class="rec-imformation">Applee IPhone 12</div>
-                <div class="rec-price">2190 BYN</div>
-                <a class="rec-buy" href="iphone2.php">Купить</a>
-            </div>
-            <div class="watch-item mix phone" data-order="7">
-                <img class="Iphone-img" src="../img/Iphone12mini.png">
-                <div class="rec-imformation">Apple IPhone 12 mini</div>
-                <div class="rec-price">1990 BYN</div>
-                <a class="rec-buy" href="iphone3.php">Купить</a>
-            </div>
-            <div class="watch-item mix phone" data-order="8">
-                <img class="Iphone-img" src="../img/IPhoneSE.png">
-                <div class="rec-imformation">Apple IPhone SE</div>
-                <div class="rec-price">1390 BYN</div>
-                <a class="rec-buy" href="iphone4.php">Купить</a>
-            </div>
-    <!-- ноуты -->
-    <div class="watch-item mix airpods " data-order="9">
-                <img class="rec-img" style="margin-left: 30%;" src="../img/mouse1.jpg">
-                <div class="rec-imformation">мышь Logitech G102 Lightsync</div>
-                <div class="rec-price">70 BYN</div>
-                <a class="rec-buy" href="mouse1.php">Купить</a>
-            </div>
-            <div class="watch-item mix  airpods " data-order="10">
-                <img class="rec-img" src="../img/mouse2.jpg">
-                <div class="rec-imformation">LOGITECH G703 Hero (L910-005640)</div>
-                <div class="rec-price">79 BYN</div>
-                <a class="rec-buy" href="mouse2.php">Купить</a>
-            </div>
-            <div class="watch-item mix  airpods" data-order="11">
-                <img class="rec-img" style="margin-left: 21%;" src="../img/mouse3.jpg">
-                <div class="rec-imformation">Razer DeathAdder Essential</div>
-                <div class="rec-price">80 BYN</div>
-                <a class="rec-buy" href="mouse3.php">Купить</a>
-            </div>
-            <div class="watch-item mix airpods  " data-order="12">
-                <img class="rec-img" style="margin-left: 21%;" src="../img/mouse4.jpg">
-                <div class="rec-imformation">STEELSERIES Rival 3 (62513)</div>
-                <div class="rec-price">103 BYN</div>
-                <a class="rec-buy" href="mouse4.php">Купить</a>
-            </div>
-    <!-- start pc -->
-  
-</div>
-</div>
-</div>  
-   </section>
-
+            <div class="price">Цена: 79  BYN</div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="footer__content">
           <div class="container">
@@ -271,10 +191,7 @@
         </div>
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="../js/mixitup.js"></script>`
       <script src="../js/btn.js"></script>
       <script src="../js/sort.js"></script>
-      <script src="../js/swiper.js"></script>
-     
 </body>
 </html>

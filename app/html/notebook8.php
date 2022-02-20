@@ -128,10 +128,10 @@
     </section>
     <section>
         <div class="container">
-            <div class="product__title">HP Pavilion Gaming</div>
+            <div class="product__title">HP Pavilion Gaming 15</div>
             <div class="product__container">
                 <div class="pdoduct__img">
-                    <img src="../img/produkt/notebook5.jpg">
+                    <img src="../img/produkt/notebook8.jpg">
                 </div>
                 <div class="function__list">
                     <ul>
