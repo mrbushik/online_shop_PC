@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="info-list-rectangle ">
+                    <div class="info-list-rectangle">
                     <ul class="info-list">
                         <!-- <li class="info-list-marker">
                             <a class="info-menu" href="#watch"><div class="info-menu-text">Часы</div></a>
@@ -126,115 +126,26 @@
             </div>
         </div>
     </section>
-   <section class='filter'>
-     <div class="container">
-       <div class="clients__info">Уважаемые клиенты в этом разделе вы можете подобрать подходящий вам 
-         товар выбрав нужный для вас параметр</div>
-         <img class='bird__img' src="../img/bird.png">
-<div class="filter__inner">
-  <div class="filter__sort">
-
-  </div>
-  <div class="products__inner-btn filter__btn">
-    <button class="watch-filter" type="button" data-filter="all">Все товары</button>
-    <button class="watch-filter" type="button" data-filter=".watch">Дешевле 1500 BYN</button>
-    <button class="watch-filter" type="button" data-filter=".phone">Для работы</button>
-    <button class="watch-filter" type="button" data-filter=".airpods">Для сложных задач</button>
-    <button class="watch-filter" type="button" data-filter=".notebook">Игровой</button>
-</div>
-<div class="watch-container">
-
-   
-    <div class="watch-item mix watch phone" data-order="1">
-        <a name="watch"></a>
-        <img class="watch-img img__main-product" src="../img/notebook1.jpg">
-        <div class="rec-imformation">Asus Vivobook 14<br>X409FA-BV606
-</div>
-        <div class="rec-price">1255 BYN</div>
-        <a class="rec-buy" href="notebook1.php">Купить</a>
-    </div>
-    <div class="watch-item mix airpods notebook" data-order="2">
-    <img class="watch-img img__main-product" src="../img/notebook2.jpg">
-        <div class="rec-imformation"> Asus TUF Gaming F15</div>
-        <div class="rec-price">2655 BYN</div>
-        <a class="rec-buy" href="notebook2.php">Купить</a>
-    </div>
-    <div class="watch-item mix watch phone" data-order="3">
-    <img class="watch-img img__main-product" src="../img/notebook3.jpg">
-        <div class="rec-imformation"> Lenovo IdeaPad 3 
-<br>15ALC6 </div>
-        <div class="rec-price">1497 BYN</div>
-        <a class="rec-buy" href="notebook3.php">Купить</a>
-    </div>
-    <div class="watch-item mix watch" data-order="4">
-    <img class="watch-img img__main-product" src="../img/notebook4.jpg">
-        <div class="rec-imformation">ASUS VivoBook<br>E410MA-BV1517</div>
-        <div class="rec-price">955 BYN</div>
-        <a class="rec-buy" href="notebook4.php">Купить</a>
-    </div>
-   
-    <div class="watch-item mix watch" data-order="5">
-    <img class="watch-img img__main-product" src="../img/notebook5.jpg">
-        <div class="rec-imformation">Haier U1520EM
-</div>
-        <div class="rec-price">808 BYN</div>
-        <a class="rec-buy" href="notebook5.php">Купить</a>
-    </div>
-    <div class="watch-item mix category-new" data-order="6">
-    <img class="watch-img img__main-product" src="../img/notebook6.jpg">
-        <div class="rec-imformation">HP 15s-fq2051ur</div>
-        <div class="rec-price">1597 BYN</div>
-        <a class="rec-buy" href="notebook6.php">Купить</a>
-    </div>
-    <div class="watch-item mix phone" data-order="7">
-    <img class="watch-img img__main-product" src="../img/notebook7.jpg">
-        <div class="rec-imformation"> Honor MagicBook X14 NBR-WAI9</div>
-        <div class="rec-price">1697 BYN</div>
-        <a class="rec-buy" href="notebook7.php">Купить</a>
-    </div>
-    <div class="watch-item mix airpods notebook" data-order="8">
-    <img class="watch-img img__main-product" src="../img/notebook8.jpg">
-        <div class="rec-imformation">HP Pavilion Gaming 15-ec1040ur </div>
-        <div class="rec-price">2815 BYN</div>
-        <a class="rec-buy" href="notebook8.php">Купить</a>
-    </div>
-   
-
-    <div class="watch-item mix  phone" data-order="13">
-        <img class="rec-img" src="../img/rec1.png">
-        <div class="rec-imformation">Apple MacBook Air 13
-            (розовый)</div>
-        <div class="rec-price">2900 BYN</div>
-        <a class="rec-buy" href="   product1.php">Купить</a>
-    </div>
-    <div class="watch-item mix airpods" data-order="14">
-        <img class="rec-img" src="../img/rec2.png">
-        <div class="rec-imformation">Apple MacBook Pro13
-            (серебристый)</div>
-        <div class="rec-price">3700 BYN</div>
-        <a class="rec-buy" href="product2.php">Купить</a>
-    </div>
-    <div class="watch-item mix phone" data-order="15">
-        <img class="rec-img" src="../img/rec3.png">
-        <div class="rec-imformation">Apple MacBook Air 13
-            (серебристый)</div>
-        <div class="rec-price">2900 BYN</div>
-        <a class="rec-buy" href="product3.php">Купить</a>
-    </div>
-    <div class="watch-item mix airpods" data-order="16">
-        <img class="rec-img" src="../img/мак4.png">
-        <div class="rec-imformation">Apple MacBook Pro 13
-            (золотой)</div>
-        <div class="rec-price">3700 BYN</div>
-        <a class="rec-buy" href="product7.php">Купить</a>
-    </div>
-    <!-- start pc -->
-  
-</div>
-</div>
-</div>  
-   </section>
-
+    <section>
+        <div class="container">
+            <div class="product__title">HP 15s-fq2051ur </div>
+            <div class="product__container">
+                <div class="pdoduct__img">
+                    <img src="../img/produkt/notebook6.jpg">
+                </div>
+                <div class="function__list">
+                    <ul>
+                        <li>Основные характеристики</li>
+                        <li>Экран:  15.6 " 1920x1080 p, IPS 60 Гц, 250 кд/м2</li>
+                        <li>Процессор:  AMD Ryzen 5 5500U 6 -ядерный, 2.1 ГГц - 4.0 ГГц, Lucienne</li>
+                        <li>Видеокарта:  Встроенная AMD Radeon Vega 7 </li>
+                        <li>Память:  ОЗУ 8 ГБ DDR4 , SSD 256 ГБ</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="price">Цена 1597 BYN</div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="footer__content">
           <div class="container">
@@ -280,10 +191,7 @@
         </div>
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="../js/mixitup.js"></script>`
       <script src="../js/btn.js"></script>
       <script src="../js/sort.js"></script>
-      <script src="../js/swiper.js"></script>
-     
 </body>
 </html>
