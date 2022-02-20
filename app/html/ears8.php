@@ -128,22 +128,22 @@
     </section>
     <section>
         <div class="container">
-            <div class="product__title">AirPods Max</div>
+            <div class="product__title">Sony WH-CH510 </div>
             <div class="product__container">
                 <div class="pdoduct__img">
-                    <img src="../img/produkt/ears3.jpg">
+                    <img src="../img/produkt/ears8.jpg">
                 </div>
                 <div class="function__list">
                     <ul>
-                        <li>Основные характеристики</li>
+                    <li>Диапазон частот:  20 Гц - 20000 Гц</li>
                         <li>Вид устройства:  Наушники с микрофоном</li>
                         <li>Тип подключения:  Беспроводное (True wireless)</li>
-                        <li>Тип разъемов:  Lightning (для зарядки)</li>
-                        <li>Время автономной работы:  24 ч</li>
+                        <li>Тип разъемов:  USB Type-C (для зарядки)</li>
+                        <li>Время автономной работы:  40 ч</li>
                     </ul>
                 </div>
             </div>
-            <div class="price">Цена: 1890  BYN</div>
+            <div class="price">Цена: 99  BYN</div>
         </div>
         </section>
     <footer class="footer">

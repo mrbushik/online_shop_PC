@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="info-list-rectangle ">
+                    <div class="info-list-rectangle">
                     <ul class="info-list">
                         <!-- <li class="info-list-marker">
                             <a class="info-menu" href="#watch"><div class="info-menu-text">Часы</div></a>
@@ -126,113 +126,26 @@
             </div>
         </div>
     </section>
-   <section class='filter'>
-     <div class="container">
-       <div class="clients__info">Уважаемые клиенты в этом разделе вы можете подобрать подходящий вам 
-         товар выбрав нужный для вас параметр</div>
-         <img class='bird__img' src="../img/bird.png">
-<div class="filter__inner">
-  <div class="filter__sort">
-
-  </div>
-  <div class="products__inner-btn filter__btn">
-    <button class="watch-filter" type="button" data-filter="all">Все товары</button>
-    <button class="watch-filter" type="button" data-filter=".watch">До 100 BYN</button>
-    <button class="watch-filter" type="button" data-filter=".phone">С шумоподавлением</button>
-    <button class="watch-filter" type="button" data-filter=".airpods">Безупречный звук</button>
-    <button class="watch-filter" type="button" data-filter=".notebook">Вкладыши</button>
-</div>
-<div class="watch-container">
-    <a name="watch"></a>
-    <!-- часы -->
-    <div class="watch-item mix watch " data-order="1">
-        <a name="watch"></a>
-        <img class="watch-img img__main-product" src="../img/hear1.jpg">
-        <div class="rec-imformation">Panasonic <br>RB-HF520BGEK
-</div>
-        <div class="rec-price">109 BYN</div>
-        <a class="rec-buy" href="ears1.php">Купить</a>
-    </div>
-    <div class="watch-item mix watch" data-order="2">
-    <img class="watch-img img__main-product" src="../img/hear2.jpg">
-        <div class="rec-imformation">  JBL Tune 510BT (розовый)</div>
-        <div class="rec-price">79 BYN</div>
-        <a class="rec-buy" href="ears2.php">Купить</a>
-    </div>
-    <div class="watch-item mix " data-order="3">
-    <img class="watch-img img__main-product" src="../img/hear3.jpg">
-        <div class="rec-imformation">  JBL Tune 500BT (синий)
- </div>
-        <div class="rec-price">109 BYN</div>
-        <a class="rec-buy" href="ears3.php">Купить</a>
-    </div>
-    <div class="watch-item mix watch" data-order="4">
-    <img class="watch-img img__main-product" src="../img/hear4.jpg">
-        <div class="rec-imformation">Sony WH-CH510 (белый)</div>
-        <div class="rec-price">99 BYN</div>
-        <a class="rec-buy" href="ears4.php">Купить</a>
-    </div>
-    <!-- телефоны -->
-  
-    <div class="watch-item mix " data-order="5">
-    <img class="watch-img img__main-product" src="../img/hear5.jpg">
-        <div class="rec-imformation"> JBL Tune 710BT (черный)
-
-</div>
-        <div class="rec-price">130 BYN</div>
-        <a class="rec-buy" href="ears5.php">Купить</a>
-    </div>
-    <div class="watch-item mix phone airpods" data-order="6">
-    <img class="watch-img img__main-product" src="../img/hear6.jpg">
-        <div class="rec-imformation"> Marshall Major IV</div>
-        <div class="rec-price">350 BYN</div>
-        <a class="rec-buy" href="ears6.php">Купить</a>
-    </div>
-    <div class="watch-item mix watch" data-order="7">
-    <img class="watch-img img__main-product" src="../img/hear7.jpg">
-        <div class="rec-imformation">BL JR310BT (зеленый)</div>
-        <div class="rec-price">89 BYN</div>
-        <a class="rec-buy" href="ears7.php">Купить</a>
-    </div>
-    <div class="watch-item mix watch" data-order="8">
-    <img class="watch-img img__main-product" src="../img/hear8.jpg">
-        <div class="rec-imformation">Sony WH-CH510 (синий)</div>
-        <div class="rec-price">99 BYN</div>
-        <a class="rec-buy" href="ears8.php">Купить</a>
-    </div>
-   
-    <!-- ноуты -->
-    <div class="watch-item mix airpods notebook" data-order="9">
-                <img class="rec-img" style="margin-left: 30%;" src="../img/rec4.png">
-                <div class="rec-imformation">Apple AirPods 2</div>
-                <div class="rec-price">490 BYN</div>
-                <a class="rec-buy" href="product4.php">Купить</a>
+    <section>
+        <div class="container">
+            <div class="product__title">JBL JR310BT (зеленый)</div>
+            <div class="product__container">
+                <div class="pdoduct__img">
+                    <img src="../img/produkt/ears7.jpg">
+                </div>
+                <div class="function__list">
+                    <ul>
+                    <li>Диапазон частот:  20 Гц - 20000 Гц</li>
+                        <li>Вид устройства:  Наушники с микрофоном</li>
+                        <li>Тип подключения:  Беспроводное (True wireless)</li>
+                        <li>Тип разъемов:  USB Type-C (для зарядки)</li>
+                        <li>Время автономной работы:  30 ч</li>
+                    </ul>
+                </div>
             </div>
-            <div class="watch-item mix phone airpods notebook" data-order="10">
-                <img class="rec-img" src="../img/rec5.png">
-                <div class="rec-imformation">Apple AirPods Pro</div>
-                <div class="rec-price">790 BYN</div>
-                <a class="rec-buy" href="product5.php">Купить</a>
-            </div>
-            <div class="watch-item mix phone airpods" data-order="11">
-                <img class="rec-img" style="margin-left: 21%;" src="../img/rec6.png">
-                <div class="rec-imformation">Apple AirPods Max</div>
-                <div class="rec-price">1890 BYN</div>
-                <a class="rec-buy" href="product6.php">Купить</a>
-            </div>
-            <div class="watch-item mix airpods notebook" data-order="12">
-                <img class="rec-img" style="margin-left: 21%;" src="../img/Слой 31.png">
-                <div class="rec-imformation">Apple AirPods 3</div>
-                <div class="rec-price">690 BYN</div>
-                <a class="rec-buy" href="product8.php">Купить</a>
-            </div>
-    <!-- start pc -->
-  
-</div>
-</div>
-</div>  
-   </section>
-
+            <div class="price">Цена: 89  BYN</div>
+        </div>
+        </section>
     <footer class="footer">
         <div class="footer__content">
           <div class="container">
@@ -278,10 +191,7 @@
         </div>
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="../js/mixitup.js"></script>`
       <script src="../js/btn.js"></script>
       <script src="../js/sort.js"></script>
-      <script src="../js/swiper.js"></script>
-     
 </body>
 </html>
