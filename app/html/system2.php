@@ -70,7 +70,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="info-list-rectangle ">
+                    <div class="info-list-rectangle">
                     <ul class="info-list">
                         <!-- <li class="info-list-marker">
                             <a class="info-menu" href="#watch"><div class="info-menu-text">Часы</div></a>
@@ -126,113 +126,26 @@
             </div>
         </div>
     </section>
-   <section class='filter'>
-     <div class="container">
-       <div class="clients__info">Уважаемые клиенты в этом разделе вы можете подобрать подходящий вам 
-         товар выбрав нужный для вас параметр</div>
-         <img class='bird__img' src="../img/bird.png">
-<div class="filter__inner">
-  <div class="filter__sort">
-
-  </div>
-  <div class="products__inner-btn filter__btn">
-    <button class="watch-filter" type="button" data-filter="all">Все товары</button>
-    <button class="watch-filter" type="button" data-filter=".watch">До 2000 BYN</button>
-    <button class="watch-filter" type="button" data-filter=".phone">Для игр</button>
-    <button class="watch-filter" type="button" data-filter=".airpods">Офисный</button>
-    <button class="watch-filter" type="button" data-filter=".notebook">Мультимедийный</button>
-</div>
-<div class="watch-container">
-    <a name="watch"></a>
-    <!-- часы -->
-    <div class="watch-item mix watch notebook" data-order="1">
-        <a name="watch"></a>
-        <img class="watch-img img__main-product" src="../img/system1.jpg">
-        <div class="rec-imformation">HAFF Home/Multimedia P2 
-</div>
-        <div class="rec-price">1663 BYN</div>
-        <a class="rec-buy" href="system1.php">Купить</a>
-    </div>
-    <div class="watch-item mix phone" data-order="2">
-    <img class="watch-img img__main-product" src="../img/system2.jpg">
-        <div class="rec-imformation">JET Gamer 5i9400</div>
-        <div class="rec-price">2502 BYN</div>
-        <a class="rec-buy" href="system2.php">Купить</a>
-    </div>
-    <div class="watch-item mix phone" data-order="3">
-    <img class="watch-img img__main-product" src="../img/system3.jpg">
-        <div class="rec-imformation"> JET Wizard 5i9400
- </div>
-        <div class="rec-price">2716 BYN</div>
-        <a class="rec-buy" href="system3.php">Купить</a>
-    </div>
-    <div class="watch-item mix phone" data-order="4">
-    <img class="watch-img img__main-product" src="../img/system4.jpg">
-        <div class="rec-imformation">HAFF Powered by Asus TUF Gaming 11
-</div>
-        <div class="rec-price">11997 BYN</div>
-        <a class="rec-buy" href="system4.php">Купить</a>
-    </div>
-    <!-- телефоны -->
-  
-    <div class="watch-item mix phone" data-order="5">
-    <img class="watch-img img__main-product" src="../img/system5.jpg">
-        <div class="rec-imformation"> HAFF Gaming-1660-36141ipd
-
-
-</div>
-        <div class="rec-price">3997 BYN</div>
-        <a class="rec-buy" href="system5.php">Купить</a>
-    </div>
-    <div class="watch-item mix  watch airpods" data-order="6">
-    <img class="watch-img img__main-product" src="../img/system6.jpg">
-        <div class="rec-imformation">  HAFF Starter/Office Skylark P1 </div>
-        <div class="rec-price">771 BYN</div>
-        <a class="rec-buy" href="system6.php">Купить</a>
-    </div>
-    <div class="watch-item mix watch notebook" data-order="7">
-    <img class="watch-img img__main-product" src="../img/system7.jpg">
-        <div class="rec-imformation">JET Multimedia 3i8100</div>
-        <div class="rec-price">1514 BYN</div>
-        <a class="rec-buy" href="system7.php">Купить</a>
-    </div>
-    <div class="watch-item mix notebook" data-order="8">
-    <img class="watch-img img__main-product" src="../img/system2.jpg">
-        <div class="rec-imformation">JET Wizard 5i8400</div>
-        <div class="rec-price">2359 BYN</div>
-        <a class="rec-buy" href="system8.php">Купить</a>
-    </div>
-    <!-- start pc -->
-    <div class="watch-item mix phone">
-                <img class="rec-img" src="../img/pc1.png">
-                <div class="rec-imformation">Компьютер на базе AMD Ryzen 5 3600X</div>
-                <div class="rec-price">2999 BYN</div>
-                <a class="rec-buy" href="pc1.php">Купить</a>
+       <section>
+        <div class="container">
+            <div class="product__title">JET Gamer 5i9400</div>
+            <div class="product__container">
+                <div class="pdoduct__img">
+                    <img src="../img/produkt/system2.jpg">
+                </div>
+                <div class="function__list">
+                    <ul>
+                        <li>Основные характеристики</li>
+                        <li>Тактовая частота	2.8 ГГц </li>
+                        <li>Тип оперативной памяти	DDR4 4ГБ</li>
+                        <li>Графический адаптер (видеокарта)	GeForce 1050</li>
+                        <li>Твердотельный накопитель (SSD)	120 ГБ</li>
+                    </ul>
+                </div>
             </div>
-            <div class="watch-item mix  watch airpods" data-order="18">
-                <img class="rec-img" src="../img/pc2.png">
-                <div class="rec-imformation">Компьютер на базе AMD Ryzen 3 3200G </div>
-                <div class="rec-price">1290 BYN</div>
-                <a class="rec-buy" href="pc2.php">Купить</a>
-            </div>
-            <div class="watch-item mix phone" data-order="19">
-                <img class="rec-img" src="../img/pc3.png">
-                <div class="rec-imformation">Компьютер на базе Intel Core i5-9400F</div>
-                <div class="rec-price">3590 BYN</div>
-                <a class="rec-buy" href="pc3.php">Купить</a>
-            </div>
-            <div class="watch-item mix  watch notebook" data-order="20">
-                <img class="rec-img" src="../img/pc4.png">
-                <div class="rec-imformation">Компьютер на базе Intel Core i7-9700</div>
-                <div class="rec-price">1900 BYN</div>
-                <a class="rec-buy" href="pc4.php">Купить</a>
-            </div>
-  
-</div>
-</div>
-</div>  
-   </section>
-
+            <div class="price">Цена: 2502 BYN</div>
+        </div>
+    </section>
     <footer class="footer">
         <div class="footer__content">
           <div class="container">
@@ -278,10 +191,7 @@
         </div>
       </footer>
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-      <script src="../js/mixitup.js"></script>`
       <script src="../js/btn.js"></script>
       <script src="../js/sort.js"></script>
-      <script src="../js/swiper.js"></script>
-     
 </body>
 </html>
