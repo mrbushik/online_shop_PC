@@ -68,6 +68,9 @@
         <textarea name="description"><?= $product['description'] ?></textarea>
         <p>Цена</p>
         <input type="number" name="price" value="<?= $product['price'] ?>"> <br> <br>
+        <p>название картинки</p>
+        <input name="img"value="<?= $product['img'] ?>">
+
         <button type="submit">Изменить</button>
     </form>
     </div>

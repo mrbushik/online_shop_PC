@@ -29,7 +29,20 @@ require_once 'config/connect.php';
         background: #606060;
         color: #fff;
     }
-
+.product__generate-img{
+    margin-left: 35px;
+width: 70px;
+height: 70px;
+margin-bottom: 5px;
+}
+.product__generate-name{
+    margin-left: 10%;
+  margin-bottom: 3px;
+}
+.product__generate-description{
+    margin-left: 10%;
+  margin-bottom: 3px;
+}
     td {
         background: #b5b5b5;
     }
@@ -118,9 +131,11 @@ margin-left: 3%;
             <div class="product__generate-item">
             <div class="product__generate-name"><?= $product[1] ?></div>
             <div class="product__generate-description"><?= $product[3] ?></div>
-            <div class="product__generate-price"><?= $product[2] ?></div>
+            <div class="product__generate-img"><img src='uploades/<?= $product[4] ?>'></div>
+            <div class="product__generate-price"><?= $product[2] ?>BYN</div>
+  
             </div>
-           
+       
             <?php
             }
            

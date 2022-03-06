@@ -72,7 +72,7 @@ height: 40px;
 background-color: black;
 color: #fff;
 border-radius: 10%;
-margin-left: unset;
+margin: 25px auto;
 }
 .out__tosite{
     color: antiquewhite;
@@ -80,6 +80,10 @@ margin-left: unset;
 .product{
     max-width: 600px;
 margin: 0 auto;
+}
+.img__upload{
+    color: red;
+    margin-left: 10px;
 }
 </style>
 
@@ -131,10 +135,10 @@ margin: 0 auto;
             foreach ($products as $product) {
                 ?>
                     <tr>
-                        <td><?= $product[0] ?></td>
                         <td><?= $product[1] ?></td>
                         <td><?= $product[3] ?></td>
                         <td><?= $product[2] ?>BYN</td>
+                        <td><?= $product[4] ?></td>
                         <td><a   class="rename"href="update.php?id=<?= $product[0] ?>">Изменить</a></td>
                         <td><a class="delete" style="color: #57231E;" href="vendor/delete.php?id=<?= $product[0] ?>">Удалить</a></td>
                     </tr>
@@ -153,8 +157,12 @@ margin: 0 auto;
         <textarea name="description"></textarea>
         <p>Цена</p>
         <input type="номер" name="price"> <br> <br>
+        <p>Полное название картинки с расширением</p>
+        <input  name="file"><br>
+       <p>для загрузки самой картинки нажмите<a   class ='img__upload'href='img.php'> сюда</a></p> 
         <button  class="btn__product" type="submit">Добавить новый продукт</button>
     </form>
+    
     </div>
 </body>
 </html>
