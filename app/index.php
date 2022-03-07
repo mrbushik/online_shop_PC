@@ -43,6 +43,9 @@
                     <li class="header-list">
                         <a class="header-link" href="html/contact.php">контакты</a>
                     </li>
+                    <li class="header-list">
+                    <img class='main__basket' src='./img/backet.png'>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -183,39 +186,48 @@
                     <div class="rec-item">
                         <img class="rec-img" src="img/rec1.png">
                         <div class="rec-imformation">Apple MacBook Air 13
-                            (розовый)</div>
+                            (розовый)
+                            <img class='basket' src='./img/backet.png'></div>
                         <div class="rec-price">2900 BYN</div>
                         <a class="rec-buy" href="html/product1.php">Купить</a>
                     </div>     
                     <div class="rec-item">
                         <img class="rec-img" src="img/rec2.png">
                         <div class="rec-imformation">Apple MacBook Pro13
-                            (серебристый)</div>
+                            (серебристый)
+                            <img class='basket' src='./img/backet.png'></div>
                         <div class="rec-price">3700 BYN</div>
                         <a class="rec-buy" href="html/product2.php">Купить</a>
                     </div>
                     <div class="rec-item">
                         <img class="rec-img" src="img/rec3.png">
                         <div class="rec-imformation">Apple MacBook Air 13
-                            (серебристый)</div>
+                            (серебристый)
+                            <img class='basket' src='./img/backet.png'></div>
                         <div class="rec-price">2900 BYN</div>
                         <a class="rec-buy" href="html/product3.php">Купить</a>
                     </div>
                     <div class="rec-item">
                         <img class="rec-img" style="margin-left: 30%;" src="img/rec4.png">
-                        <div class="rec-imformation">Apple AirPods 2</div>
+                        <div class="rec-imformation">Apple AirPods 2
+                        <img class='basket' src='./img/backet.png'>
+                        </div>
                         <div class="rec-price">490 BYN</div>
                         <a class="rec-buy" href="html/product4.php">Купить</a>
                     </div>
                     <div class="rec-item">
                         <img class="rec-img" src="img/rec5.png">
-                        <div class="rec-imformation">Apple AirPods Pro</div>
+                        <div class="rec-imformation">Apple AirPods Pro
+                        <img class='basket' src='./img/backet.png'>
+                        </div>
                         <div class="rec-price">790 BYN</div>
                         <a class="rec-buy" href="html/product5.php">Купить</a>
                     </div>
                     <div class="rec-item">
                         <img class="rec-img" style="margin-left: 28%;" src="img/rec6.png">
-                        <div class="rec-imformation">Apple AirPods Max</div>
+                        <div class="rec-imformation">Apple AirPods Max
+                        <img class='basket' src='./img/backet.png'>
+                        </div>
                         <div class="rec-price">1890 BYN</div>
                         <a class="rec-buy" href="html/product6.php">Купить</a>
                     </div> 
@@ -243,25 +255,33 @@
             <div class="watch-item mix watch" data-order="1">
                 <a name="watch"></a>
                 <img class="watch-img" src="img/watchS3.png">
-                <div class="rec-imformation">Apple Watch <br>Series 3</div>
+                <div class="rec-imformation">Apple Watch <br>Series 3
+                <img class='basket' src='./img/backet.png'>
+        </div>
                 <div class="rec-price">790 BYN</div>
                 <a class="rec-buy" href="html/watch1.php">Купить</a>
             </div>
             <div class="watch-item mix watch category-popular" data-order="2">
                 <img class="watch-img" src="img/watchSE.png">
-                <div class="rec-imformation">Apple Watch<br> Series SE</div>
+                <div class="rec-imformation">Apple Watch<br> Series SE
+                <img class='basket' src='./img/backet.png'>
+        </div>
                 <div class="rec-price">1190 BYN</div>
                 <a class="rec-buy" href="html/watch2.php">Купить</a>
             </div>
             <div class="watch-item mix watch" data-order="3">
                 <img class="watch-img" src="img/watch7-1.png">
-                <div class="rec-imformation">Apple Watch<br> Series 7</div>
+                <div class="rec-imformation">Apple Watch<br> Series 7
+                <img class='basket' src='./img/backet.png'>
+        </div>
                 <div class="rec-price">1490 BYN</div>
                 <a class="rec-buy" href="html/watch3.php">Купить</a>
             </div>
             <div class="watch-item mix watch" data-order="4">
                 <img class="watch-img" src="img/watch7-2.png">
-                <div class="rec-imformation">Apple Watch <br>Series 7</div>
+                <div class="rec-imformation">Apple Watch <br>Series 7
+                <img class='basket' src='./img/backet.png'>
+        </div>
                 <div class="rec-price">1490 BYN</div>
                 <a class="rec-buy" href="html/watch4.php">Купить</a>
             </div>
@@ -269,25 +289,33 @@
             <a name="phone"></a>
             <div class="watch-item mix phone category-popular" data-order="5">
                 <img class="Iphone-img" src="img/IPhone11.png">
-                <div class="rec-imformation">Apple IPhone 11</div>
+                <div class="rec-imformation">Apple IPhone 11
+                <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">1790 BYN</div>
                 <a class="rec-buy" href="html/iphine1.php">Купить</a>
             </div>
             <div class="watch-item mix phone category-new" data-order="6">
                 <img class="Iphone-img" src="img/IPhone12.png">
-                <div class="rec-imformation">Applee IPhone 12</div>
+                <div class="rec-imformation">Applee IPhone 12
+                <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">2190 BYN</div>
                 <a class="rec-buy" href="html/iphone2.php">Купить</a>
             </div>
             <div class="watch-item mix phone" data-order="7">
                 <img class="Iphone-img" src="img/Iphone12mini.png">
-                <div class="rec-imformation">Apple IPhone 12 mini</div>
+                <div class="rec-imformation">Apple IPhone 12 mini
+                <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">1990 BYN</div>
                 <a class="rec-buy" href="html/iphone3.php">Купить</a>
             </div>
             <div class="watch-item mix phone" data-order="8">
                 <img class="Iphone-img" src="img/IPhoneSE.png">
-                <div class="rec-imformation">Apple IPhone SE</div>
+                <div class="rec-imformation">Apple IPhone SE
+                <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">1390 BYN</div>
                 <a class="rec-buy" href="html/iphone4.php">Купить</a>
             </div>
@@ -295,25 +323,33 @@
             <a name="airpods"></a>
             <div class="watch-item mix airpods" data-order="9">
                 <img class="rec-img" style="margin-left: 30%;" src="img/rec4.png">
-                <div class="rec-imformation">Apple AirPods 2</div>
+                <div class="rec-imformation">Apple AirPods 2
+                <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">490 BYN</div>
                 <a class="rec-buy" href="html/product4.php">Купить</a>
             </div>
             <div class="watch-item mix airpods" data-order="10">
                 <img class="rec-img" src="img/rec5.png">
-                <div class="rec-imformation">Apple AirPods Pro</div>
+                <div class="rec-imformation">Apple AirPods Pro
+                <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">790 BYN</div>
                 <a class="rec-buy" href="html/product5.php">Купить</a>
             </div>
             <div class="watch-item mix airpods category-new" data-order="11">
                 <img class="rec-img" style="margin-left: 21%;" src="img/rec6.png">
-                <div class="rec-imformation">Apple AirPods Max</div>
+                <div class="rec-imformation">Apple AirPods Max
+                <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">1890 BYN</div>
                 <a class="rec-buy" href="html/product6.php">Купить</a>
             </div>
             <div class="watch-item mix airpods" data-order="12">
                 <img class="rec-img" style="margin-left: 21%;" src="img/Слой 31.png">
-                <div class="rec-imformation">Apple AirPods 3</div>
+                <div class="rec-imformation">Apple AirPods 3
+                <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">690 BYN</div>
                 <a class="rec-buy" href="html/product8.php">Купить</a>
             </div>
@@ -322,28 +358,36 @@
             <div class="watch-item mix notebook" data-order="13">
                 <img class="rec-img" src="img/rec1.png">
                 <div class="rec-imformation">Apple MacBook Air 13
-                    (розовый)</div>
+                    (розовый)
+                    <img class='basket' src='./img/backet.png'>
+            </div>
                 <div class="rec-price">2900 BYN</div>
                 <a class="rec-buy" href="html/product1.php">Купить</a>
             </div>
             <div class="watch-item mix notebook" data-order="14">
                 <img class="rec-img" src="img/rec2.png">
                 <div class="rec-imformation">Apple MacBook Pro13
-                    (серебристый)</div>
+                    (серебристый)
+                    <img class='basket' src='./img/backet.png'>
+            </div>
                 <div class="rec-price">3700 BYN</div>
                 <a class="rec-buy" href="html/product2.php">Купить</a>
             </div>
             <div class="watch-item mix notebook category-popular" data-order="15">
                 <img class="rec-img" src="img/rec3.png">
                 <div class="rec-imformation">Apple MacBook Air 13
-                    (серебристый)</div>
+                    (серебристый)
+                    <img class='basket' src='./img/backet.png'>
+            </div>
                 <div class="rec-price">2900 BYN</div>
                 <a class="rec-buy" href="html/product3.php">Купить</a>
             </div>
             <div class="watch-item mix notebook category-new" data-order="16">
                 <img class="rec-img" src="img/мак4.png">
                 <div class="rec-imformation">Apple MacBook Pro 13
-                    (золотой)</div>
+                    (золотой)
+                    <img class='basket' src='./img/backet.png'>
+            </div>
                 <div class="rec-price">3700 BYN</div>
                 <a class="rec-buy" href="html/product7.php">Купить</a>
             </div>
@@ -351,25 +395,33 @@
             <a name="pc"></a>
             <div class="watch-item mix system">
                 <img class="rec-img" src="img/pc1.png">
-                <div class="rec-imformation">Компьютер на базе AMD Ryzen 5 3600X</div>
+                <div class="rec-imformation">Компьютер на базе AMD Ryzen 5 3600X
+                <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">2999 BYN</div>
                 <a class="rec-buy" href="html/pc1.php">Купить</a>
             </div>
             <div class="watch-item mix system" data-order="18">
                 <img class="rec-img" src="img/pc2.png">
-                <div class="rec-imformation">Компьютер на базе AMD Ryzen 3 3200G </div>
+                <div class="rec-imformation">Компьютер на базе AMD Ryzen 3 3200G 
+                    <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">1290 BYN</div>
                 <a class="rec-buy" href="html/pc2.php">Купить</a>
             </div>
             <div class="watch-item mix system category-popular" data-order="19">
                 <img class="rec-img" src="img/pc3.png">
-                <div class="rec-imformation">Компьютер на базе Intel Core i5-9400F</div>
+                <div class="rec-imformation">Компьютер на базе Intel Core i5-9400F
+                    <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">3590 BYN</div>
                 <a class="rec-buy" href="html/pc3.php">Купить</a>
             </div>
             <div class="watch-item mix system category-new" data-order="20">
                 <img class="rec-img" src="img/pc4.png">
-                <div class="rec-imformation">Компьютер на базе Intel Core i7-9700</div>
+                <div class="rec-imformation">Компьютер на базе Intel Core i7-9700
+                    <img class='basket' src='./img/backet.png'>
+                </div>
                 <div class="rec-price">1900 BYN</div>
                 <a class="rec-buy" href="html/pc4.php">Купить</a>
             </div>
@@ -380,6 +432,14 @@
             </div>
     </div>
 </section>
+<>
+        <h2> Вот что у вас в корзине</h2>
+        <div class="container">
+<div class="product__list">
+
+</div>
+        </div>
+        </ .
 <section class="repair">
     <div class="container">
     <div class="repair__item-title repair__item-unvisible">Так же мы предоставляем услуги ремонта ваших гаджетов</div>
@@ -444,6 +504,7 @@
 <script src="./js/mixitup.js"></script>
 <script src="./js/sort.js"></script>
 <script src="./js/main.js"></script>
+<script src='./js/product.js'></script>
 </body>
 </html>
 </body>

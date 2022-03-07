@@ -857,6 +857,20 @@ footer__info-phone._active {
     height: 350px;
 }
 
+.basket {
+
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-left: 1%;
+}
+
+.main__basket {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 28px;
+}
 
 
 @import"_media";
