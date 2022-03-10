@@ -42,13 +42,16 @@
                     </li>
                     <li class="header-list">
                         <a class="header-link" href="html/contact.php">контакты</a>
-                    </li>
-                    <li class="header-list">
-                    <img class='main__basket' src='./img/backet.png'>
-                    </li>
+                    
                 </ul>
+                        
             </div>
         </div>
+        <div class="product__menu">
+                    <img class='main__basket' src='./img/backet.png'>
+                    </div>
+                    <div class="basket__menu">
+                    </div>
     </div>
     
 </header>

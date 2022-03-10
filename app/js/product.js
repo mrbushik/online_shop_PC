@@ -1,17 +1,33 @@
 const nameProduct = document.querySelectorAll('.rec-imformation')
 const toBasket = document.querySelectorAll('.basket')
 const list = document.querySelector('.product__list')
-console.log(list);
-
+const basketMenu = document.querySelector('.basket__menu')
+const mainBasket = document.querySelector('.product__menu')
+console.log(mainBasket);
+mainBasket.addEventListener('mouseover', () => {
+    basketMenu.style.display = 'block';
+})
+mainBasket.addEventListener('mouseout', () => {
+    basketMenu.style.display = 'none';
+})
+basketMenu.addEventListener('mouseover', () => {
+    basketMenu.style.display = 'block';
+})
+basketMenu.addEventListener('mouseout', () => {
+    basketMenu.style.display = 'none';
+})
 const fullProduct = []
 const render = () => {
     list.innerHTML = '';
+    basketMenu.innerHTML = '';
     fullProduct.forEach(function (item) {
-        const li = document.createElement('li');
+        const li = document.createElement('div');
         li.classList.add('todo-item');
-        li.innerHTML = '<span class="text-todo">' + item.text + '</span>' +
-            '<button class="todo-remove"></button>'
-        list.append(li);
+        li.innerHTML = '<div class="todo-element>' +
+            '<span class="text-todo">' + item.text + '</span>' + '<br>' +
+            '<button class="todo-remove">удалить</button>' +
+            '</div>';
+        basketMenu.append(li);
         li.querySelector('.todo-remove').addEventListener('click', () => {
             let index = fullProduct.indexOf(item);
             fullProduct.splice(index, 1);
@@ -28,7 +44,6 @@ if (localStorage.getItem('todoObject')) {
 }
 toBasket.forEach((e) => {
     let productItem = e.closest('.rec-imformation')
-    console.log(productItem);
     e.addEventListener('click', function (event) {
         event.preventDefault();
         let productItem = e.closest('.rec-imformation')
@@ -36,7 +51,7 @@ toBasket.forEach((e) => {
         let length = productItemValue.length - 10;
         productItemValue.slice(0, length);
         productItemValue += ''
-        console.log(productItemValue.length);
+
         const newTodo = {
             text: productItem.textContent,
         };
@@ -47,17 +62,3 @@ toBasket.forEach((e) => {
 
     });
 })
-// toBasket.forEach((item) => {
-//     item.addEventListener('click', () => {
-//         let name = item.closest('.rec-imformation')
-//         console.log(name.textContent);
-//     })
-// })
-// test.addEventListener('click', () => {
-//     let testName = test.closest('.parant');
-
-//     console.log(testName.textContent);
-// })
-console.log(nameProduct);
-console.log(toBasket);
-console.log('hello');
