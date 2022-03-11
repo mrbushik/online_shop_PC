@@ -18,7 +18,6 @@ basketMenu.addEventListener('mouseout', () => {
 })
 const fullProduct = []
 const render = () => {
-    list.innerHTML = '';
     basketMenu.innerHTML = '';
     fullProduct.forEach(function (item) {
         const li = document.createElement('div');

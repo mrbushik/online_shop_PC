@@ -42,7 +42,7 @@
                     </li>
                     <li class="header-list">
                         <a class="header-link" href="html/contact.php">контакты</a>
-                    
+                    </li>
                 </ul>
                         
             </div>
@@ -435,14 +435,7 @@
             </div>
     </div>
 </section>
-<>
-        <h2> Вот что у вас в корзине</h2>
-        <div class="container">
-<div class="product__list">
 
-</div>
-        </div>
-        </ .
 <section class="repair">
     <div class="container">
     <div class="repair__item-title repair__item-unvisible">Так же мы предоставляем услуги ремонта ваших гаджетов</div>
