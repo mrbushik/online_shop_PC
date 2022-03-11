@@ -46,6 +46,11 @@
                     </ul>
                 </div>
             </div>
+            <div class="product__menu">
+                    <img class='main__basket' src='../img/backet.png'>
+                    </div>
+                    <div class="basket__menu">
+                    </div>
         </div>
     </header>
     <section class="info">
@@ -284,6 +289,7 @@
       <script src="../js/btn.js"></script>
       <script src="../js/sort.js"></script>
       <script src="../js/swiper.js"></script>
+      <script src='../js/product.js'></script>
      
 </body>
 </html>

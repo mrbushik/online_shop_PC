@@ -188,7 +188,7 @@
             <div class="rec-container">
                     <div class="rec-item">
                         <img class="rec-img" src="img/rec1.png">
-                        <div class="rec-imformation">Apple MacBook Air 13
+                        <div class="rec-imformation">Apple MacBook Air 13<br>
                             (розовый)
                             <img class='basket' src='./img/backet.png'></div>
                         <div class="rec-price">2900 BYN</div>

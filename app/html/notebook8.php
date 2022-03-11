@@ -124,11 +124,18 @@
                     </nav>
                 </div>
             </div>
+            <div class="product__menu">
+                    <img class='main__basket' src='../img/backet.png'>
+                    </div>
+                    <div class="basket__menu">
+                    </div>
         </div>
     </section>
     <section>
         <div class="container">
-            <div class="product__title">HP Pavilion Gaming 15</div>
+            <div class="rec-imformation product__title">HP Pavilion Gaming 15
+            <img class='basket' src='../img/backet.png'>
+            </div>
             <div class="product__container">
                 <div class="pdoduct__img">
                     <img src="../img/produkt/notebook8.jpg">
@@ -193,5 +200,6 @@
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       <script src="../js/btn.js"></script>
       <script src="../js/sort.js"></script>
+      <script src='../js/product.js'></script>
 </body>
 </html>

@@ -3,7 +3,7 @@ const toBasket = document.querySelectorAll('.basket')
 const list = document.querySelector('.product__list')
 const basketMenu = document.querySelector('.basket__menu')
 const mainBasket = document.querySelector('.product__menu')
-console.log(mainBasket);
+console.log(basketMenu);
 mainBasket.addEventListener('mouseover', () => {
     basketMenu.style.display = 'block';
 })
@@ -49,7 +49,7 @@ toBasket.forEach((e) => {
         let productItemValue = productItem.textContent;
         let length = productItemValue.length - 10;
         productItemValue.slice(0, length);
-        productItemValue += ''
+        productItemValue += '';
 
         const newTodo = {
             text: productItem.textContent,
