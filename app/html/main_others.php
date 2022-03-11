@@ -46,6 +46,11 @@
                     </ul>
                 </div>
             </div>
+            <div class="product__menu">
+                    <img class='main__basket' src='../img/backet.png'>
+                    </div>
+                    <div class="basket__menu">
+                    </div>
         </div>
     </header>
     <section class="info">
@@ -174,7 +179,7 @@
                 <img class="Iphone-img" src="../img/IPhone11.png">
                 <div class="rec-imformation">Apple IPhone 11</div>
                 <div class="rec-price">1790 BYN</div>
-                <a class="rec-buy" href="html/iphine1.php">Купить</a>
+                <a class="rec-buy" href="iphine1.php">Купить</a>
             </div>
             <div class="watch-item mix phone category-new" data-order="6">
                 <img class="Iphone-img" src="../img/IPhone12.png">
@@ -275,6 +280,7 @@
       <script src="../js/btn.js"></script>
       <script src="../js/sort.js"></script>
       <script src="../js/swiper.js"></script>
+      <script src='../js/product.js'></script>
      
 </body>
 </html>
