@@ -93,14 +93,14 @@ margin-left: 3%;
 </header>
    
     <table class="product__table">
-        <tr>
+        <!-- <tr>
             <th>номер</th>
             <th>название</th>
             <th>описание</th>
             <th>цена</th>
-        </tr>
+        </tr> -->
 <div class="list">полный список товара!</div>
-<div class="list__info">При самовывозе назовите номер товара мастеру</div>
+<div class="list__info">При самовывозе покажите желаемый к приобретению товар мастеру</div>
 <button  calss="print" onclick="javascrypt:window.print()">печать</button>  
 <div class="product__generate-inner"> 
  <?php

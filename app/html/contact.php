@@ -126,8 +126,8 @@
     <section>
         <div class="container">
             <div class="product__title">Контакты</div>
-           <div class="pay__info">Нам можно написать на почту: pcmactergrodno@gmailcom</div>
-           <div class="pay__info-subtitle">Если вы хотите позвонить Александру и лично решить вашу проблемму сделать это можно по номеру <a class="phone__link" href="tel:+375298855398">375 29 8855 398</a></div>
+           <div class="pay__info">Нам можно написать на почту: pcmactergrodno@gmail.com</div>
+           <div class="pay__info-subtitle">Если вы хотите позвонить Александру и лично решить вашу проблему сделать это можно по номеру <a class="phone__link" href="tel:+375298855398">375 29 8855 398</a></div>
          <div class="contact__page-text">Найти офис можно по адрессу Великая Ольшанка 7А или найдите нас на карте кликнув <a class="phone__link" href="map.html#map">здесь</a></div>
         </div>
     </section>
