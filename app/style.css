@@ -1,7 +1,7 @@
 .login__inner {
   margin: 150px auto 0;
   width: 280px;
-  height: 300px;
+  height: 325px;
   background-color: #904FFF;
   border-radius: 2%;
 }
@@ -38,11 +38,15 @@
 }
 
 .reg__inner {
-  width: 300px;
+  width: 335px;
   margin: 150px auto 0;
   background-color: #904FFF;
   border-radius: 2%;
-  height: 370px;
+  height: 435px;
+}
+
+.reg {
+  height: 424px;
 }
 
 .header__info-link:hover {

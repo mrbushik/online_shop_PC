@@ -11,7 +11,7 @@
   	<h2 class="title">Регистрация</h2>
   
 	
-  <form class="header__info-form" method="post" action="registration.php">
+  <form class="header__info-form reg" method="post" action="registration.php">
   	<?php include('errors.php'); ?>
 		  <div class="input-group">
   	  <label >Имя</label>

@@ -1,24 +1,23 @@
-// @media(max-width: 1500px) {
-//     .product__menu {
-//         right: 8%;
-//     }
+@media(max-width: 1500px) {
+    .product__menu {
+        right: 8%;
+    }
 
-//     .basket__menu {
-//         right: 45px;
-//     }
-// }
+    .basket__menu {
+        right: 45px;
+    }
+}
 
-// @media(max-width: 1370px) {
-//     .product__menu {
-//         right: 5%;
-//     }
-// }
 
-// @media(max-width: 1370px) {
-//     .product__menu {
-//         right: 2%;
-//     }
-// }
+@media(max-width: 1370px) {
+    .product__menu {
+        right: 2%;
+    }
+
+    .header-menu {
+        margin-right: 10%;
+    }
+}
 
 @media (max-width: 1030px) {
     .container {
@@ -286,6 +285,7 @@
         margin-left: 5%;
         margin-right: 5%;
     }
+
 }
 
 @media (max-width: 400px) {
